@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenitha — Connexion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --night:      #04060E;
+      --deep:       #07091A;
+      --mid:        #0C1024;
+      --surface:    #10152E;
+      --gold:       #C6A24A;
+      --gold-light: #E2C97E;
+      --gold-glow:  rgba(198,162,74,0.12);
+      --gold-line:  rgba(198,162,74,0.22);
+      --star:       #EDE9DA;
+      --body:       rgba(237,233,218,0.7);
+      --muted:      rgba(237,233,218,0.35);
+      --error:      #E05555;
+    }
+
+    html, body {
+      min-height: 100%;
+      background: var(--night);
+      color: var(--star);
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+
+    #starfield {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      background: rgba(4,6,14,0.97);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(198,162,74,0.08);
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      text-decoration: none;
+    }
+
+    .nav-link {
+      font-size: 0.66rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: none;
+      border: none;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-link:hover { color: var(--gold-light); }
+
+    /* ── MAIN ── */
+    main {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 90px 20px 60px;
+    }
+
+    /* ── CARD ── */
+    .card {
+      width: 100%;
+      max-width: 420px;
+      border: 1px solid var(--gold-line);
+      background: var(--surface);
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+    }
+
+    .card-head {
+      padding: 32px 24px 20px;
+      text-align: center;
+      border-bottom: 1px solid rgba(198,162,74,0.1);
+    }
+
+    .card-symbol {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      color: var(--gold);
+      margin-bottom: 12px;
+      display: block;
+      animation: breathe 4s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%,100% { opacity:0.6; } 50% { opacity:1; }
+    }
+
+    .card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      font-weight: 300;
+      color: var(--star);
+      margin-bottom: 6px;
+    }
+
+    .card-title em { font-style: italic; color: var(--gold-light); }
+
+    .card-desc {
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .card-body { padding: 24px; }
+
+    /* ── FORM ── */
+    .field { margin-bottom: 18px; }
+
+    .field-label {
+      display: block;
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      background: var(--mid);
+      border: 1px solid var(--gold-line);
+      color: var(--star);
+      padding: 12px 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 300;
+      outline: none;
+      transition: border-color 0.2s;
+      border-radius: 0;
+      -webkit-appearance: none;
+    }
+
+    input:focus { border-color: var(--gold); }
+    input::placeholder { color: var(--muted); }
+
+    .error-msg {
+      font-size: 0.68rem;
+      color: var(--error);
+      margin-top: 6px;
+      display: none;
+    }
+
+    .forgot {
+      text-align: right;
+      margin-top: 6px;
+    }
+
+    .forgot a {
+      font-size: 0.64rem;
+      color: var(--muted);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      transition: color 0.2s;
+    }
+
+    .forgot a:hover { color: var(--gold-light); }
+
+    .btn-primary {
+      width: 100%;
+      background: linear-gradient(135deg, var(--gold) 0%, #8A6020 100%);
+      color: var(--night);
+      border: none;
+      padding: 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      margin-top: 6px;
+    }
+
+    .btn-primary:hover { opacity: 0.85; }
+
+    .divider-or {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .divider-or-line {
+      flex: 1;
+      height: 1px;
+      background: rgba(198,162,74,0.12);
+    }
+
+    .divider-or-text {
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .btn-outline {
+      width: 100%;
+      background: transparent;
+      border: 1px solid var(--gold-line);
+      color: var(--muted);
+      padding: 13px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+    }
+
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold-light); }
+
+    .card-foot {
+      padding: 16px 24px 24px;
+      text-align: center;
+      border-top: 1px solid rgba(198,162,74,0.08);
+    }
+
+    .card-foot p {
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    .card-foot a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .card-foot a:hover { color: var(--gold-light); }
+
+    /* ── ZENITHA NOTE ── */
+    .zenitha-note {
+      width: 100%;
+      max-width: 420px;
+      margin-top: 20px;
+      border-left: 2px solid var(--gold-line);
+      padding: 14px 16px;
+    }
+
+    .zenitha-note p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.95rem;
+      font-style: italic;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+  </style>
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#04060E" />
+  <link rel="apple-touch-icon" href="/icons/zenitha-icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Zenitha" />
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+
+<nav>
+  <a href="/" class="logo">Zenitha</a>
+  <a href="zenitha-inscription.html" class="nav-link">Créer un compte →</a>
+</nav>
+
+<main>
+  <div class="card">
+    <div class="card-head">
+      <span class="card-symbol">✦</span>
+      <div class="card-title">Bon retour,<br /><em>les étoiles t'attendaient.</em></div>
+      <div class="card-desc">Connecte-toi pour accéder à ton portrait cosmique.</div>
+    </div>
+
+    <div class="card-body">
+      <div class="field">
+        <label class="field-label">Adresse e-mail</label>
+        <input type="email" id="email" placeholder="ton@email.com" autocomplete="email" />
+        <div class="error-msg" id="emailError">Adresse e-mail invalide.</div>
+      </div>
+
+      <div class="field">
+        <label class="field-label">Mot de passe</label>
+        <input type="password" id="password" placeholder="••••••••" autocomplete="current-password" />
+        <div class="forgot"><a href="#">Mot de passe oublié ?</a></div>
+        <div class="error-msg" id="passError">Mot de passe incorrect.</div>
+      </div>
+
+      <button class="btn-primary" onclick="login()">Se connecter</button>
+
+      <div class="divider-or">
+        <div class="divider-or-line"></div>
+        <span class="divider-or-text">ou</span>
+        <div class="divider-or-line"></div>
+      </div>
+
+      <a href="zenitha-inscription.html" class="btn-outline">Créer un compte gratuit</a>
+    </div>
+
+    <div class="card-foot">
+      <p>Pas encore membre ? <a href="zenitha-inscription.html">Rejoindre Zenitha →</a></p>
+    </div>
+  </div>
+
+  <div class="zenitha-note">
+    <p>"Chaque retour est une nouvelle lecture. Les étoiles ont bougé depuis ta dernière visite."</p>
+  </div>
+</main>
+
+<script>
+  /* STARFIELD */
+  const canvas = document.getElementById('starfield');
+  const ctx = canvas.getContext('2d');
+  function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+  resize(); window.addEventListener('resize', resize);
+  const stars = Array.from({ length: 200 }, () => ({
+    x: Math.random(), y: Math.random(),
+    r: 0.15 + Math.random() * 1.1,
+    a: 0.2 + Math.random() * 0.6,
+    s: 0.0008 + Math.random() * 0.002,
+    ph: Math.random() * Math.PI * 2,
+    gold: Math.random() < 0.03
+  }));
+  function drawStars(t) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    stars.forEach(s => {
+      const alpha = s.a * (0.4 + 0.6 * Math.sin(t * s.s * 1000 + s.ph));
+      ctx.beginPath();
+      ctx.arc(s.x * canvas.width, s.y * canvas.height, s.r, 0, Math.PI * 2);
+      if (s.gold) { ctx.fillStyle=`rgba(198,162,74,${alpha*0.8})`; ctx.shadowColor='rgba(198,162,74,0.5)'; ctx.shadowBlur=4; }
+      else { ctx.fillStyle=`rgba(237,233,218,${alpha})`; ctx.shadowBlur=0; }
+      ctx.fill(); ctx.shadowBlur=0;
+    });
+    requestAnimationFrame(drawStars);
+  }
+  requestAnimationFrame(drawStars);
+
+  /* LOGIN */
+  function login() {
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value;
+    let valid = true;
+
+    document.getElementById('emailError').style.display = 'none';
+    document.getElementById('passError').style.display = 'none';
+
+    if (!email || !email.includes('@')) {
+      document.getElementById('emailError').style.display = 'block';
+      valid = false;
+    }
+
+    if (password.length < 6) {
+      document.getElementById('passError').style.display = 'block';
+      valid = false;
+    }
+
+    if (valid) {
+      // Redirection vers le profil
+      window.location.href = 'zenitha-profil.html';
+    }
+  }
+
+  // Enter pour soumettre
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter') login();
+  });
+</script>
+
+<script src="/zenitha-pwa.js"></script>
+</body>
+</html>
