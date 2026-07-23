@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "systeme": "Astrologie Occidentale — Aspects",
+    "version": "1.0",
+    "usage": "Les aspects sont les angles entre deux planètes. Ils indiquent comment les fonctions planétaires dialoguent — en harmonie, en tension ou en fusion. L'orbe est la marge de tolérance en degrés."
+  },
+
+  "aspects_majeurs": {
+    "conjonction": {
+      "nom": "Conjonction",
+      "angle": 0,
+      "orbe": 8,
+      "nature": "Fusion / Intensification",
+      "symbole": "☌",
+      "en_bref": "Deux planètes au même endroit fusionnent leurs énergies. L'effet est puissant — harmonieux ou tendu selon les planètes en jeu.",
+      "texte_fond": "La conjonction unit deux planètes en un seul point : leurs fonctions se mélangent et s'amplifient mutuellement. C'est l'aspect le plus fort. Son caractère dépend entièrement des planètes concernées : une conjonction Soleil-Vénus est douce et charmante, une conjonction Mars-Saturne est plus tendue et exigeante. La conjonction crée une énergie fusionnelle qu'on ne peut pas séparer — les deux planètes agissent ensemble, pour le meilleur ou pour le plus complexe.",
+      "tonalite": "neutre-intense"
+    },
+    "sextile": {
+      "nom": "Sextile",
+      "angle": 60,
+      "orbe": 6,
+      "nature": "Opportunité / Harmonie douce",
+      "symbole": "⚹",
+      "en_bref": "Un aspect facile et fluide qui crée des opportunités. Les deux planètes coopèrent naturellement, mais il faut parfois activer ce potentiel.",
+      "texte_fond": "Le sextile est un aspect harmonieux et stimulant. Les deux planètes se soutiennent et s'entraident avec fluidité, créant des talents naturels et des opportunités. Contrairement au trigone, plus passif, le sextile demande souvent d'être activé consciemment pour donner ses fruits. Il offre des portes ouvertes qu'il suffit de franchir. C'est un aspect de facilité qui invite à l'action.",
+      "tonalite": "harmonique"
+    },
+    "carre": {
+      "nom": "Carré",
+      "angle": 90,
+      "orbe": 7,
+      "nature": "Tension / Défi",
+      "symbole": "□",
+      "en_bref": "Un aspect de tension qui crée friction et défi entre deux planètes. Inconfortable, mais moteur de croissance et d'action.",
+      "texte_fond": "Le carré est l'aspect de tension par excellence. Les deux planètes s'opposent et se gênent, créant des frictions, des blocages ou des conflits intérieurs. Mais cette tension est aussi un puissant moteur : elle pousse à agir, à se dépasser, à construire. Les carrés sont souvent à l'origine de nos plus grands efforts et de nos réussites durement gagnées. Bien travaillé, un carré devient une force considérable ; ignoré, il génère répétitions et frustrations.",
+      "tonalite": "tension"
+    },
+    "trigone": {
+      "nom": "Trigone",
+      "angle": 120,
+      "orbe": 8,
+      "nature": "Harmonie / Fluidité",
+      "symbole": "△",
+      "en_bref": "L'aspect le plus harmonieux. Les deux planètes coulent ensemble avec aisance — un don naturel, parfois pris pour acquis.",
+      "texte_fond": "Le trigone est l'aspect le plus harmonieux du zodiaque. Les deux planètes, dans le même élément, coopèrent avec une aisance totale, offrant talents naturels, chance et fluidité. C'est un cadeau du thème — mais un cadeau parfois si évident qu'on ne l'exploite pas, ou qu'on s'y repose paresseusement. Le trigone donne sans effort ce que d'autres doivent conquérir. L'enjeu est de ne pas gaspiller ce potentiel par facilité.",
+      "tonalite": "harmonique"
+    },
+    "opposition": {
+      "nom": "Opposition",
+      "angle": 180,
+      "orbe": 8,
+      "nature": "Polarité / Équilibre à trouver",
+      "symbole": "☍",
+      "en_bref": "Deux planètes face à face, en tension d'équilibre. Souvent vécue à travers les autres, elle appelle à intégrer deux forces opposées.",
+      "texte_fond": "L'opposition met deux planètes face à face, créant une polarité à équilibrer. Contrairement au carré (tension d'action), l'opposition est une tension de balancier : on oscille entre deux forces, deux besoins, deux tendances contraires. On la vit souvent à travers les relations, en projetant sur l'autre la partie de soi qu'on n'assume pas. L'enjeu est l'intégration : apprendre à honorer les deux pôles plutôt que de basculer de l'un à l'autre. Bien intégrée, l'opposition apporte conscience et équilibre.",
+      "tonalite": "tension-équilibre"
+    }
+  },
+
+  "aspects_mineurs": {
+    "quinconce": {
+      "nom": "Quinconce (ou Inconjonction)",
+      "angle": 150,
+      "orbe": 3,
+      "nature": "Ajustement / Inconfort subtil",
+      "symbole": "⚻",
+      "en_bref": "Un aspect d'ajustement entre deux planètes qui n'ont rien en commun. Crée un inconfort diffus qui demande des réajustements constants.",
+      "texte_fond": "Le quinconce relie deux planètes qui ne partagent ni élément ni modalité — elles peinent à se comprendre. Il crée un malaise subtil, une sensation que quelque chose ne s'accorde pas tout à fait, demandant des ajustements permanents. Souvent lié à la santé ou à des tensions difficiles à nommer, le quinconce invite à un travail fin d'adaptation entre deux parties de soi qui parlent des langues différentes.",
+      "tonalite": "ajustement"
+    },
+    "semi_sextile": {
+      "nom": "Semi-sextile",
+      "angle": 30,
+      "orbe": 2,
+      "nature": "Lien léger / Transition",
+      "symbole": "⚺",
+      "en_bref": "Un aspect faible entre signes voisins. Crée un lien subtil, une transition douce mais parfois maladroite entre deux énergies.",
+      "texte_fond": "Le semi-sextile relie deux planètes dans des signes adjacents. C'est un aspect discret qui crée un lien de proximité un peu maladroit — les deux planètes se côtoient sans vraiment se comprendre, comme des voisins. Son influence est légère mais peut apporter une nuance intéressante dans la lecture d'un thème.",
+      "tonalite": "léger"
+    }
+  },
+
+  "principe_lecture": {
+    "note": "Pour interpréter un aspect, on combine : (1) la nature des deux planètes, (2) le type d'aspect (harmonique ou tension), (3) les signes et maisons impliqués. Un même aspect se lit différemment selon le contexte global du thème. Les aspects harmoniques (sextile, trigone) donnent des facilités ; les aspects de tension (carré, opposition) donnent des défis moteurs de croissance ; la conjonction fusionne et intensifie."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "systeme": "Kabbale & Astrologie Hébraïque",
+    "version": "1.0",
+    "origine": "Tradition mystique juive — l'Arbre de Vie et le Sefer Yetzirah",
+    "usage": "La kabbale associe les planètes et les signes aux structures de l'Arbre de Vie (les 10 Sephirot et les 22 sentiers). Elle offre une lecture spirituelle du chemin de l'âme, complémentaire aux systèmes prédictifs.",
+    "note_importante": "Il s'agit ici de la dimension symbolique et mystique de la kabbale appliquée à l'astrologie, dans un cadre de développement personnel et spirituel. Ce n'est pas une pratique religieuse ni une prétention à l'authenticité rabbinique stricte — c'est une lecture symbolique moderne, présentée avec respect pour la tradition dont elle s'inspire.",
+    "cadre_ethique": "Zenitha présente la kabbale comme une sagesse symbolique parmi d'autres, sans prétendre à une vérité religieuse absolue, et avec respect pour la tradition juive dont elle est issue."
+  },
+
+  "arbre_de_vie": {
+    "note": "L'Arbre de Vie (Etz Chaim) est la structure centrale de la kabbale : 10 Sephirot (émanations divines) reliées par 22 sentiers. Il décrit la descente de l'énergie du divin vers le monde matériel, et le chemin inverse de l'âme vers l'élévation.",
+    "trois_piliers": {
+      "pilier_rigueur": { "nom": "Pilier de la Rigueur (gauche)", "sephirot": ["Binah", "Geburah", "Hod"], "nature": "Structure, limite, jugement, forme, contraction" },
+      "pilier_misericorde": { "nom": "Pilier de la Miséricorde (droite)", "sephirot": ["Chokmah", "Chesed", "Netzach"], "nature": "Expansion, don, force créatrice, énergie" },
+      "pilier_equilibre": { "nom": "Pilier de l'Équilibre (centre)", "sephirot": ["Kether", "Tiphareth", "Yesod", "Malkuth"], "nature": "Harmonie, conscience, intégration, équilibre entre les deux forces" }
+    }
+  },
+
+  "sephirot": {
+    "note": "Les 10 Sephirot sont les émanations à travers lesquelles le divin se manifeste. Chacune correspond à une planète et à une qualité de l'âme. Dans Zenitha, la Sephira dominante d'une personne éclaire son chemin spirituel.",
+    "liste": {
+      "kether": {
+        "ordre": 1,
+        "nom": "Kether",
+        "sens": "La Couronne",
+        "planete": "Neptune / Pluton (au-delà des planètes visibles)",
+        "pilier": "Équilibre",
+        "essence": "L'unité première, la volonté divine, la source pure. Le point d'origine avant toute manifestation.",
+        "chemin_ame": "Une âme reliée à Kether cherche l'unité, le sens ultime, la connexion à plus grand qu'elle. Vocation spirituelle élevée, quête de l'essentiel.",
+        "mots_cles": ["unité", "source", "volonté divine", "transcendance"]
+      },
+      "chokmah": {
+        "ordre": 2,
+        "nom": "Chokmah",
+        "sens": "La Sagesse",
+        "planete": "Uranus / Zodiaque",
+        "pilier": "Miséricorde",
+        "essence": "La sagesse jaillissante, l'inspiration pure, l'impulsion créatrice masculine. L'éclair d'intuition avant la forme.",
+        "chemin_ame": "Une âme reliée à Chokmah est porteuse d'intuitions fulgurantes et d'inspiration. Elle voit avant de comprendre, elle initie, elle éveille.",
+        "mots_cles": ["sagesse", "inspiration", "intuition", "impulsion créatrice"]
+      },
+      "binah": {
+        "ordre": 3,
+        "nom": "Binah",
+        "sens": "La Compréhension",
+        "planete": "Saturne",
+        "pilier": "Rigueur",
+        "essence": "La compréhension profonde, la Grande Mère qui donne forme à l'inspiration. L'intelligence structurante, le sein qui contient et façonne.",
+        "chemin_ame": "Une âme reliée à Binah comprend en profondeur avant d'agir. Gardienne du sens, elle donne forme et structure, elle porte une sagesse patiente et maternelle. Souvent une âme qui a traversé l'épreuve et en a tiré la compréhension.",
+        "mots_cles": ["compréhension", "structure", "profondeur", "sagesse maternelle"]
+      },
+      "chesed": {
+        "ordre": 4,
+        "nom": "Chesed",
+        "sens": "La Miséricorde / La Grâce",
+        "planete": "Jupiter",
+        "pilier": "Miséricorde",
+        "essence": "L'amour inconditionnel, la générosité, l'expansion bienveillante. Le don qui se répand sans limite.",
+        "chemin_ame": "Une âme reliée à Chesed rayonne de générosité et de bonté. Elle donne, protège, élève. Sa vocation est l'amour qui construit et le don désintéressé.",
+        "mots_cles": ["miséricorde", "générosité", "amour", "expansion"]
+      },
+      "geburah": {
+        "ordre": 5,
+        "nom": "Geburah",
+        "sens": "La Force / La Rigueur",
+        "planete": "Mars",
+        "pilier": "Rigueur",
+        "essence": "La force, la discipline, le jugement, le courage de trancher. La rigueur nécessaire qui limite et purifie.",
+        "chemin_ame": "Une âme reliée à Geburah porte force et courage. Elle sait poser des limites, trancher, défendre le juste. Sa vocation est la force au service du bien, la discipline qui protège.",
+        "mots_cles": ["force", "discipline", "courage", "justice"]
+      },
+      "tiphareth": {
+        "ordre": 6,
+        "nom": "Tiphareth",
+        "sens": "La Beauté",
+        "planete": "Soleil",
+        "pilier": "Équilibre",
+        "essence": "Le cœur de l'Arbre, l'harmonie parfaite, la beauté qui équilibre toutes les forces. Le centre solaire, la conscience du cœur.",
+        "chemin_ame": "Une âme reliée à Tiphareth cherche l'harmonie et la beauté, l'équilibre du cœur. Elle réconcilie les opposés et rayonne une lumière apaisante. Vocation de guérison et d'intégration.",
+        "mots_cles": ["beauté", "harmonie", "cœur", "équilibre", "rayonnement"]
+      },
+      "netzach": {
+        "ordre": 7,
+        "nom": "Netzach",
+        "sens": "La Victoire / L'Éternité",
+        "planete": "Vénus",
+        "pilier": "Miséricorde",
+        "essence": "L'émotion, le désir, l'art, la persévérance du sentiment. La force de la beauté et de l'amour qui triomphe par la durée.",
+        "chemin_ame": "Une âme reliée à Netzach vit intensément les émotions, l'amour et la beauté. Artiste dans l'âme, elle persévère par passion. Sa vocation touche à l'art, au sentiment et à la célébration de la vie.",
+        "mots_cles": ["émotion", "art", "amour", "persévérance", "beauté"]
+      },
+      "hod": {
+        "ordre": 8,
+        "nom": "Hod",
+        "sens": "La Gloire / La Splendeur",
+        "planete": "Mercure",
+        "pilier": "Rigueur",
+        "essence": "L'intellect, la parole, la structure mentale, la communication. La splendeur de l'esprit qui nomme et organise.",
+        "chemin_ame": "Une âme reliée à Hod pense, analyse et communique avec finesse. Elle structure le monde par l'esprit et la parole. Sa vocation touche à la connaissance, l'enseignement et la transmission.",
+        "mots_cles": ["intellect", "parole", "communication", "analyse"]
+      },
+      "yesod": {
+        "ordre": 9,
+        "nom": "Yesod",
+        "sens": "Le Fondement",
+        "planete": "Lune",
+        "pilier": "Équilibre",
+        "essence": "Le fondement, l'inconscient, l'imagination, le pont entre le spirituel et le matériel. Le réservoir des images et des rêves.",
+        "chemin_ame": "Une âme reliée à Yesod est profondément intuitive et imaginative, connectée à l'inconscient et aux rêves. Elle fait le lien entre les mondes. Sa vocation touche au psychisme, à l'intuition et à l'imaginaire.",
+        "mots_cles": ["fondement", "inconscient", "imagination", "intuition", "rêve"]
+      },
+      "malkuth": {
+        "ordre": 10,
+        "nom": "Malkuth",
+        "sens": "Le Royaume",
+        "planete": "Terre / éléments",
+        "pilier": "Équilibre",
+        "essence": "Le monde matériel, la manifestation concrète, le corps, la présence incarnée. Là où toute l'énergie de l'Arbre se réalise dans le réel.",
+        "chemin_ame": "Une âme reliée à Malkuth est ancrée dans le concret et sait manifester dans le réel. Sa vocation est d'incarner le spirituel dans le matériel, de rendre tangible et vivant. Le corps et la terre sont ses maîtres.",
+        "mots_cles": ["royaume", "matière", "incarnation", "manifestation", "ancrage"]
+      }
+    }
+  },
+
+  "correspondances_planetes": {
+    "note": "Correspondances traditionnelles entre les planètes astrologiques et les Sephirot, permettant de croiser le thème occidental avec l'Arbre de Vie.",
+    "table": {
+      "Soleil": "Tiphareth (La Beauté)",
+      "Lune": "Yesod (Le Fondement)",
+      "Mercure": "Hod (La Gloire)",
+      "Vénus": "Netzach (La Victoire)",
+      "Mars": "Geburah (La Force)",
+      "Jupiter": "Chesed (La Miséricorde)",
+      "Saturne": "Binah (La Compréhension)",
+      "Uranus": "Chokmah (La Sagesse)",
+      "Neptune": "Kether (La Couronne)",
+      "Pluton": "Kether / Daath (le savoir caché)"
+    }
+  },
+
+  "methode_zenitha": {
+    "note": "Pour déterminer la Sephira dominante d'une personne dans Zenitha, on croise la position du Soleil et de la Lune (les deux luminaires) et l'on identifie la Sephira dont la vibration résonne le plus avec la structure du thème. Cette Sephira éclaire le chemin spirituel et la vocation profonde de l'âme, en complément des autres systèmes.",
+    "usage_synthese": "Dans le portrait fusionné, la kabbale apporte la dimension du chemin de l'âme et de la vocation spirituelle — la question du 'pourquoi profond', là où l'occidental donne la personnalité, le védique le karma, le chinois le tempérament et la numérologie le rythme de vie."
+  }
+}

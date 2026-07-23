@@ -1,0 +1,286 @@
+{
+  "_meta": {
+    "systeme": "Astrologie Occidentale",
+    "version": "1.0",
+    "usage": "Base de connaissance pour Zenitha — nourrit l'IA et alimente les pages de contenu",
+    "note": "Chaque signe contient : identité rapide (pour affichage), texte de fond (pour l'IA et le SEO), mots-clés (pour la synthèse multi-systèmes)"
+  },
+
+  "elements": {
+    "feu": {
+      "nom": "Feu",
+      "signes": ["Bélier", "Lion", "Sagittaire"],
+      "nature": "Énergie, action, enthousiasme, spontanéité",
+      "en_bref": "Les signes de feu agissent avant de réfléchir, portés par l'élan et le désir. Chaleureux, directs, parfois impatients."
+    },
+    "terre": {
+      "nom": "Terre",
+      "signes": ["Taureau", "Vierge", "Capricorne"],
+      "nature": "Concret, stabilité, patience, matérialité",
+      "en_bref": "Les signes de terre construisent dans le réel. Fiables, ancrés, orientés résultats — parfois rigides."
+    },
+    "air": {
+      "nom": "Air",
+      "signes": ["Gémeaux", "Balance", "Verseau"],
+      "nature": "Pensée, communication, relations, idées",
+      "en_bref": "Les signes d'air vivent dans le mental et l'échange. Curieux, sociables, analytiques — parfois détachés."
+    },
+    "eau": {
+      "nom": "Eau",
+      "signes": ["Cancer", "Scorpion", "Poissons"],
+      "nature": "Émotion, intuition, sensibilité, profondeur",
+      "en_bref": "Les signes d'eau ressentent tout. Intuitifs, empathiques, profonds — parfois submergés par leurs émotions."
+    }
+  },
+
+  "modalites": {
+    "cardinal": {
+      "nom": "Cardinal",
+      "signes": ["Bélier", "Cancer", "Balance", "Capricorne"],
+      "nature": "Initiative, lancement, leadership",
+      "en_bref": "Les signes cardinaux démarrent les choses. Ils ouvrent les saisons et impulsent le mouvement."
+    },
+    "fixe": {
+      "nom": "Fixe",
+      "signes": ["Taureau", "Lion", "Scorpion", "Verseau"],
+      "nature": "Stabilité, persévérance, détermination",
+      "en_bref": "Les signes fixes consolident et maintiennent. Loyaux et tenaces — parfois têtus."
+    },
+    "mutable": {
+      "nom": "Mutable",
+      "signes": ["Gémeaux", "Vierge", "Sagittaire", "Poissons"],
+      "nature": "Adaptation, flexibilité, transition",
+      "en_bref": "Les signes mutables s'adaptent et transforment. Souples et polyvalents — parfois dispersés."
+    }
+  },
+
+  "signes": {
+    "belier": {
+      "nom": "Bélier",
+      "glyph": "♈",
+      "dates": "21 mars – 19 avril",
+      "element": "Feu",
+      "modalite": "Cardinal",
+      "planete_maitresse": "Mars",
+      "polarite": "Yang / Masculin",
+      "partie_corps": "Tête",
+      "pierre": "Diamant, jaspe rouge",
+      "identite_rapide": "Le pionnier. Premier signe du zodiaque, il incarne l'élan, l'initiative et le courage brut.",
+      "traits_positifs": ["Courageux", "Direct", "Énergique", "Spontané", "Pionnier", "Franc"],
+      "traits_a_travailler": ["Impatient", "Impulsif", "Colérique", "Égocentrique", "Imprudent"],
+      "en_amour": "Le Bélier aime avec passion et immédiateté. Il conquiert, il désire ardemment, mais peut se lasser une fois la conquête faite. Il a besoin de défi et de renouvellement pour rester engagé.",
+      "au_travail": "Meneur naturel, le Bélier excelle quand il peut lancer des projets et prendre des initiatives. Il déteste la routine et l'autorité pesante. Entrepreneur dans l'âme.",
+      "texte_fond": "Le Bélier ouvre le zodiaque, et il en porte toute la symbolique du commencement. Gouverné par Mars, planète de l'action et du désir, il avance tête baissée vers ce qu'il veut, animé par une énergie qui ne demande qu'à se déployer. Sa force est l'initiative pure : là où d'autres hésitent, le Bélier a déjà commencé. Sa difficulté est la patience et la constance — l'élan qui le lance retombe parfois avant l'arrivée. Apprendre à canaliser son feu plutôt qu'à le dépenser d'un coup est le grand travail d'une vie de Bélier.",
+      "mots_cles_synthese": ["initiative", "courage", "impulsivité", "leadership", "commencement"]
+    },
+
+    "taureau": {
+      "nom": "Taureau",
+      "glyph": "♉",
+      "dates": "20 avril – 20 mai",
+      "element": "Terre",
+      "modalite": "Fixe",
+      "planete_maitresse": "Vénus",
+      "polarite": "Yin / Féminin",
+      "partie_corps": "Gorge, cou",
+      "pierre": "Émeraude, quartz rose",
+      "identite_rapide": "Le bâtisseur sensoriel. Ancré, patient, il cherche la stabilité, le plaisir et la sécurité durable.",
+      "traits_positifs": ["Fiable", "Patient", "Loyal", "Sensuel", "Déterminé", "Ancré"],
+      "traits_a_travailler": ["Têtu", "Possessif", "Résistant au changement", "Matérialiste", "Rancunier"],
+      "en_amour": "Le Taureau aime lentement, profondément et durablement. Il construit une relation comme on bâtit une maison — pierre après pierre. Fidèle et sensuel, il a besoin de sécurité et de gestes concrets d'affection.",
+      "au_travail": "Persévérant et méthodique, le Taureau va au bout de ce qu'il entreprend. Il aime le travail concret, tangible, bien rémunéré. Peu rapide mais extrêmement fiable.",
+      "texte_fond": "Gouverné par Vénus, le Taureau est le signe du plaisir des sens et de la stabilité matérielle. Signe de terre fixe, il incarne l'ancrage : il veut du solide, du durable, du réel qu'on peut toucher. Sa force est la constance — le Taureau ne lâche pas, il tient, il dure. Sa difficulté est le rapport au changement, qu'il vit souvent comme une menace. Apprendre que la sécurité vient de l'intérieur, et non seulement de ce qu'on possède, est le chemin d'évolution du Taureau.",
+      "mots_cles_synthese": ["stabilité", "sensualité", "persévérance", "sécurité", "ancrage"]
+    },
+
+    "gemeaux": {
+      "nom": "Gémeaux",
+      "glyph": "♊",
+      "dates": "21 mai – 20 juin",
+      "element": "Air",
+      "modalite": "Mutable",
+      "planete_maitresse": "Mercure",
+      "polarite": "Yang / Masculin",
+      "partie_corps": "Poumons, bras, mains",
+      "pierre": "Agate, citrine",
+      "identite_rapide": "Le communicant. Vif, curieux, adaptable, il vit dans l'échange, l'idée et le mouvement mental.",
+      "traits_positifs": ["Vif d'esprit", "Curieux", "Communicant", "Adaptable", "Spirituel", "Polyvalent"],
+      "traits_a_travailler": ["Dispersé", "Inconstant", "Superficiel", "Anxieux", "Indécis"],
+      "en_amour": "Le Gémeaux a besoin de stimulation intellectuelle avant tout. Il séduit par les mots, la légèreté, l'humour. Il craint l'ennui et la routine plus que tout, et a besoin d'un partenaire qui le surprend.",
+      "au_travail": "Polyvalent et rapide, le Gémeaux brille dans la communication, l'écriture, le commerce, tout ce qui demande de jongler avec les idées. Il s'ennuie vite dans les tâches répétitives.",
+      "texte_fond": "Gouverné par Mercure, planète de l'esprit et de la parole, le Gémeaux est le signe de la pensée en mouvement. Signe d'air mutable, il relie, échange, transmet — c'est le messager du zodiaque. Sa force est l'agilité mentale et la capacité d'adaptation : il comprend vite et parle à tout le monde. Sa difficulté est la dispersion — mille idées, peu menées à terme — et une certaine difficulté à plonger en profondeur. Apprendre à choisir et à approfondir plutôt qu'à papillonner est le travail du Gémeaux.",
+      "mots_cles_synthese": ["communication", "curiosité", "adaptabilité", "dualité", "mental"]
+    },
+
+    "cancer": {
+      "nom": "Cancer",
+      "glyph": "♋",
+      "dates": "21 juin – 22 juillet",
+      "element": "Eau",
+      "modalite": "Cardinal",
+      "planete_maitresse": "Lune",
+      "polarite": "Yin / Féminin",
+      "partie_corps": "Estomac, poitrine",
+      "pierre": "Pierre de lune, perle",
+      "identite_rapide": "Le protecteur émotionnel. Sensible, intuitif, attaché au foyer et aux liens profonds.",
+      "traits_positifs": ["Empathique", "Protecteur", "Intuitif", "Loyal", "Tendre", "Fidèle à la mémoire"],
+      "traits_a_travailler": ["Susceptible", "Lunatique", "Sur la défensive", "Rancunier", "Trop dépendant affectivement"],
+      "en_amour": "Le Cancer aime avec une profondeur et une loyauté immenses. Il cherche la sécurité affective, un nid, un lien qui dure. Une fois qu'il aime, il protège et se dévoue — mais il peut se refermer comme une carapace s'il est blessé.",
+      "au_travail": "Le Cancer excelle dans les métiers du soin, de l'accompagnement, de la mémoire et du foyer. Intuitif, il sent les ambiances. Il a besoin de se sentir en sécurité pour donner le meilleur.",
+      "texte_fond": "Gouverné par la Lune, le Cancer est le signe des émotions, de la mémoire et du foyer. Signe d'eau cardinal, il initie par le sentiment : il ressent avant de penser. Sa force est une sensibilité et une intuition rares, une capacité à protéger et à créer du lien. Sa difficulté est la vulnérabilité émotionnelle — il se blesse facilement et se protège alors derrière une carapace. Apprendre à s'ouvrir sans craindre constamment la blessure, et à distinguer le passé du présent, est le chemin du Cancer.",
+      "mots_cles_synthese": ["émotion", "protection", "foyer", "intuition", "mémoire"]
+    },
+
+    "lion": {
+      "nom": "Lion",
+      "glyph": "♌",
+      "dates": "23 juillet – 22 août",
+      "element": "Feu",
+      "modalite": "Fixe",
+      "planete_maitresse": "Soleil",
+      "polarite": "Yang / Masculin",
+      "partie_corps": "Cœur, dos, colonne",
+      "pierre": "Rubis, ambre",
+      "identite_rapide": "Le souverain rayonnant. Généreux, créatif, il a besoin de briller, de créer et d'être reconnu.",
+      "traits_positifs": ["Généreux", "Chaleureux", "Créatif", "Loyal", "Charismatique", "Protecteur"],
+      "traits_a_travailler": ["Orgueilleux", "Dominateur", "Avide de reconnaissance", "Susceptible", "Autoritaire"],
+      "en_amour": "Le Lion aime avec grandeur et générosité. Il se donne pleinement et attend en retour admiration et loyauté. Romantique et fidèle, il a besoin de se sentir spécial et reconnu dans le couple.",
+      "au_travail": "Le Lion est fait pour diriger, créer et inspirer. Il brille dans les rôles où il peut rayonner, mener et être vu. Il a besoin de reconnaissance pour s'épanouir, mais sait aussi protéger son équipe.",
+      "texte_fond": "Gouverné par le Soleil, centre du système, le Lion est le signe du rayonnement, de la créativité et de l'expression de soi. Signe de feu fixe, il incarne une force chaleureuse et stable, un feu qui réchauffe plutôt qu'il ne brûle. Sa force est la générosité et le charisme — le Lion donne, protège, inspire. Sa difficulté est le besoin de reconnaissance, qui peut virer à l'orgueil ou à la dépendance au regard des autres. Apprendre à briller pour la joie de créer, et non pour être admiré, est le grand travail du Lion.",
+      "mots_cles_synthese": ["rayonnement", "créativité", "générosité", "fierté", "expression"]
+    },
+
+    "vierge": {
+      "nom": "Vierge",
+      "glyph": "♍",
+      "dates": "23 août – 22 septembre",
+      "element": "Terre",
+      "modalite": "Mutable",
+      "planete_maitresse": "Mercure",
+      "polarite": "Yin / Féminin",
+      "partie_corps": "Système digestif, intestins",
+      "pierre": "Saphir, jaspe",
+      "identite_rapide": "L'analyste au service. Précis, dévoué, il cherche à améliorer, comprendre et rendre utile.",
+      "traits_positifs": ["Rigoureux", "Serviable", "Analytique", "Fiable", "Modeste", "Attentif au détail"],
+      "traits_a_travailler": ["Perfectionniste", "Critique", "Anxieux", "Trop dans le contrôle", "Dur envers soi-même"],
+      "en_amour": "La Vierge aime discrètement, par des gestes concrets et attentionnés plutôt que par de grandes déclarations. Loyale et dévouée, elle exprime son amour en prenant soin. Elle peut être trop critique, avec les autres comme avec elle-même.",
+      "au_travail": "La Vierge excelle dans tout ce qui demande précision, méthode et amélioration : analyse, soin, artisanat, organisation. Consciencieuse et fiable, elle voit ce que les autres manquent. Elle doit apprendre à ne pas viser une perfection épuisante.",
+      "texte_fond": "Gouvernée par Mercure dans sa dimension analytique, la Vierge est le signe du discernement, du service et de l'amélioration. Signe de terre mutable, elle transforme le concret par l'attention aux détails. Sa force est la rigueur et le dévouement — la Vierge rend les choses meilleures, plus justes, plus utiles. Sa difficulté est le perfectionnisme et l'auto-critique, qui peuvent devenir une source d'anxiété constante. Apprendre que l'imperfection fait partie du vivant, et diriger sa bienveillance vers elle-même autant que vers les autres, est le chemin de la Vierge.",
+      "mots_cles_synthese": ["analyse", "service", "précision", "perfectionnisme", "discernement"]
+    },
+
+    "balance": {
+      "nom": "Balance",
+      "glyph": "♎",
+      "dates": "23 septembre – 22 octobre",
+      "element": "Air",
+      "modalite": "Cardinal",
+      "planete_maitresse": "Vénus",
+      "polarite": "Yang / Masculin",
+      "partie_corps": "Reins, lombaires",
+      "pierre": "Opale, lapis-lazuli",
+      "identite_rapide": "Le diplomate esthète. En quête d'harmonie, de justice et de relation, il cherche l'équilibre.",
+      "traits_positifs": ["Diplomate", "Charmant", "Juste", "Sociable", "Esthète", "Conciliant"],
+      "traits_a_travailler": ["Indécis", "Dépendant du regard", "Fuit le conflit", "Complaisant", "Ambivalent"],
+      "en_amour": "La Balance est le signe du couple par excellence. Elle s'épanouit dans la relation, cherche l'harmonie et le partenariat équilibré. Romantique et attentionnée, elle peut cependant se perdre dans le désir de plaire et éviter les conflits nécessaires.",
+      "au_travail": "La Balance excelle dans la médiation, le droit, l'art, la relation client, tout ce qui demande diplomatie et sens esthétique. Elle sait rassembler et apaiser. Sa difficulté : trancher et décider seule.",
+      "texte_fond": "Gouvernée par Vénus dans sa dimension relationnelle, la Balance est le signe de l'harmonie, de la justice et du lien à l'autre. Signe d'air cardinal, elle initie par la relation : elle a besoin du miroir de l'autre pour se définir. Sa force est le sens de l'équilibre, de la beauté et de l'équité — la Balance cherche le juste milieu et la paix. Sa difficulté est l'indécision et la dépendance à l'approbation extérieure. Apprendre à s'appuyer sur son propre jugement et à accepter le conflit comme parfois nécessaire est le travail de la Balance.",
+      "mots_cles_synthese": ["harmonie", "relation", "justice", "indécision", "équilibre"]
+    },
+
+    "scorpion": {
+      "nom": "Scorpion",
+      "glyph": "♏",
+      "dates": "23 octobre – 21 novembre",
+      "element": "Eau",
+      "modalite": "Fixe",
+      "planete_maitresse": "Pluton (et Mars en traditionnel)",
+      "polarite": "Yin / Féminin",
+      "partie_corps": "Organes sexuels, système reproducteur",
+      "pierre": "Topaze, obsidienne",
+      "identite_rapide": "L'intense transformateur. Profond, magnétique, il plonge dans les vérités cachées et se régénère.",
+      "traits_positifs": ["Profond", "Passionné", "Loyal", "Perspicace", "Résilient", "Magnétique"],
+      "traits_a_travailler": ["Jaloux", "Rancunier", "Contrôlant", "Secret à l'excès", "Vindicatif"],
+      "en_amour": "Le Scorpion aime avec une intensité totale. Pour lui, l'amour est fusion, profondeur, vérité — le superficiel l'ennuie. Extrêmement loyal une fois engagé, il peut aussi être jaloux et possessif. Il donne tout et attend tout.",
+      "au_travail": "Le Scorpion excelle dans tout ce qui touche à l'investigation, la psychologie, la transformation, la stratégie. Il voit sous la surface. Intense et déterminé, il ne fait rien à moitié.",
+      "texte_fond": "Gouverné par Pluton, planète des profondeurs et de la transformation, le Scorpion est le signe de la mort et de la renaissance, du caché et de l'intense. Signe d'eau fixe, il ressent avec une profondeur qui va jusqu'à l'obsession. Sa force est la capacité de transformation — le Scorpion traverse les crises et en ressort régénéré, il n'a pas peur de l'ombre. Sa difficulté est le contrôle, la jalousie et la rancune, qui l'emprisonnent dans le passé. Apprendre à lâcher prise et à faire confiance plutôt qu'à tout maîtriser est le grand chemin du Scorpion.",
+      "mots_cles_synthese": ["intensité", "transformation", "profondeur", "contrôle", "renaissance"]
+    },
+
+    "sagittaire": {
+      "nom": "Sagittaire",
+      "glyph": "♐",
+      "dates": "22 novembre – 21 décembre",
+      "element": "Feu",
+      "modalite": "Mutable",
+      "planete_maitresse": "Jupiter",
+      "polarite": "Yang / Masculin",
+      "partie_corps": "Cuisses, hanches, foie",
+      "pierre": "Turquoise, améthyste",
+      "identite_rapide": "L'explorateur philosophe. Libre, optimiste, il cherche le sens, l'ailleurs et la vérité.",
+      "traits_positifs": ["Optimiste", "Aventurier", "Franc", "Généreux", "Philosophe", "Enthousiaste"],
+      "traits_a_travailler": ["Imprudent", "Fuyant l'engagement", "Excessif", "Peu tactful", "Instable"],
+      "en_amour": "Le Sagittaire aime la liberté autant que l'amour. Il a besoin d'espace, d'aventure et de partage intellectuel. Enthousiaste et généreux en amour, il fuit l'enfermement et les partenaires trop possessifs. Il s'engage quand il trouve une complicité qui ne le limite pas.",
+      "au_travail": "Le Sagittaire brille dans tout ce qui ouvre l'horizon : voyage, enseignement, philosophie, droit, édition, sport. Il a besoin de sens et de liberté. La routine et le contrôle l'étouffent.",
+      "texte_fond": "Gouverné par Jupiter, planète de l'expansion et du sens, le Sagittaire est le signe de la quête, du voyage et de la sagesse. Signe de feu mutable, il transforme par l'aventure et la recherche de vérité. Sa force est l'optimisme et l'ouverture — le Sagittaire vise loin, croit en l'avenir, cherche le sens des choses. Sa difficulté est l'excès, l'impatience et une certaine fuite devant l'engagement et le quotidien. Apprendre que la profondeur vaut la largeur, et que la liberté n'exclut pas le lien, est le chemin du Sagittaire.",
+      "mots_cles_synthese": ["liberté", "quête de sens", "optimisme", "aventure", "expansion"]
+    },
+
+    "capricorne": {
+      "nom": "Capricorne",
+      "glyph": "♑",
+      "dates": "22 décembre – 19 janvier",
+      "element": "Terre",
+      "modalite": "Cardinal",
+      "planete_maitresse": "Saturne",
+      "polarite": "Yin / Féminin",
+      "partie_corps": "Genoux, os, squelette, peau",
+      "pierre": "Grenat, onyx",
+      "identite_rapide": "Le bâtisseur ambitieux. Discipliné, patient, il gravit méthodiquement vers ses objectifs.",
+      "traits_positifs": ["Discipliné", "Ambitieux", "Responsable", "Endurant", "Sage", "Fiable"],
+      "traits_a_travailler": ["Rigide", "Pessimiste", "Froid en apparence", "Trop dur au travail", "Contrôlant"],
+      "en_amour": "Le Capricorne aime sérieusement et durablement. Peu démonstratif en apparence, il exprime son amour par l'engagement, la fidélité et la construction d'un avenir commun. Sous sa réserve se cache une grande profondeur. Il a besoin de temps et de confiance.",
+      "au_travail": "Le Capricorne est le signe de la réussite par l'effort. Ambitieux, structuré, endurant, il gravit les échelons avec patience et atteint ses objectifs. Il excelle dans la gestion, la direction, tout ce qui demande responsabilité et long terme.",
+      "texte_fond": "Gouverné par Saturne, planète du temps, de la structure et de la maîtrise, le Capricorne est le signe de l'ambition patiente et de la responsabilité. Signe de terre cardinal, il initie dans le concret et le durable — il construit pour l'avenir. Sa force est la discipline et l'endurance : le Capricorne ne renonce pas, il avance pas à pas jusqu'au sommet. Sa difficulté est la rigidité, la sévérité envers lui-même et une tendance à confondre valeur personnelle et réussite. Apprendre à se détendre, à s'autoriser la joie et à s'aimer indépendamment de ses accomplissements est le chemin du Capricorne.",
+      "mots_cles_synthese": ["ambition", "discipline", "responsabilité", "structure", "endurance"]
+    },
+
+    "verseau": {
+      "nom": "Verseau",
+      "glyph": "♒",
+      "dates": "20 janvier – 18 février",
+      "element": "Air",
+      "modalite": "Fixe",
+      "planete_maitresse": "Uranus (et Saturne en traditionnel)",
+      "polarite": "Yang / Masculin",
+      "partie_corps": "Chevilles, circulation, système nerveux",
+      "pierre": "Améthyste, aigue-marine",
+      "identite_rapide": "Le visionnaire libre. Original, indépendant, tourné vers l'avenir, l'idée et le collectif.",
+      "traits_positifs": ["Original", "Indépendant", "Humaniste", "Visionnaire", "Tolérant", "Innovant"],
+      "traits_a_travailler": ["Détaché", "Rebelle par principe", "Distant émotionnellement", "Imprévisible", "Obstiné"],
+      "en_amour": "Le Verseau aime dans la liberté et l'amitié. Il cherche une complicité intellectuelle, un partenaire-ami avec qui partager des idées et de l'indépendance. Peu conventionnel, il a besoin d'espace et se méfie de la fusion trop intense. Fidèle à sa manière, mais toujours libre.",
+      "au_travail": "Le Verseau brille dans l'innovation, la technologie, les causes collectives, tout ce qui invente l'avenir. Original et indépendant, il pense hors des cadres. Il a besoin de liberté et déteste la hiérarchie rigide.",
+      "texte_fond": "Gouverné par Uranus, planète de la rupture et de l'innovation, le Verseau est le signe de l'originalité, de la liberté et de l'idéal collectif. Signe d'air fixe, il tient fermement à ses idées et à sa vision de l'avenir. Sa force est la capacité à penser autrement, à inventer, à défendre l'humain et le progrès. Sa difficulté est un certain détachement émotionnel — le Verseau vit parfois plus dans les idées que dans les liens, et peut sembler distant. Apprendre à habiter ses émotions autant que ses idées, et à relier son idéal de l'humanité à l'amour concret des personnes, est le chemin du Verseau.",
+      "mots_cles_synthese": ["originalité", "liberté", "vision", "détachement", "collectif"]
+    },
+
+    "poissons": {
+      "nom": "Poissons",
+      "glyph": "♓",
+      "dates": "19 février – 20 mars",
+      "element": "Eau",
+      "modalite": "Mutable",
+      "planete_maitresse": "Neptune (et Jupiter en traditionnel)",
+      "polarite": "Yin / Féminin",
+      "partie_corps": "Pieds, système immunitaire",
+      "pierre": "Améthyste, aigue-marine",
+      "identite_rapide": "Le rêveur empathique. Sensible, intuitif, créatif, il dissout les frontières et ressent le tout.",
+      "traits_positifs": ["Empathique", "Intuitif", "Créatif", "Compatissant", "Spirituel", "Doux"],
+      "traits_a_travailler": ["Fuyant la réalité", "Influençable", "Victime", "Confus", "Sacrifice de soi excessif"],
+      "en_amour": "Le Poissons aime avec une dévotion totale et une immense tendresse. Romantique, fusionnel, il rêve d'un amour idéal et se donne sans compter. Sa difficulté : les limites — il peut se perdre dans l'autre ou idéaliser au point de ne plus voir la réalité. Il a besoin d'un partenaire qui l'ancre avec douceur.",
+      "au_travail": "Le Poissons excelle dans les métiers créatifs, artistiques, spirituels ou de soin. Intuitif et empathique, il capte les ambiances et donne beaucoup. Il a besoin de sens et souffre dans les environnements durs ou purement matériels.",
+      "texte_fond": "Gouverné par Neptune, planète du rêve, de la spiritualité et de la dissolution des frontières, le Poissons est le dernier signe du zodiaque — il en contient tous les autres et incarne le retour au tout. Signe d'eau mutable, il ressent sans limites, capte l'invisible, se fond dans ce qui l'entoure. Sa force est une empathie et une intuition profondes, une créativité et une spiritualité rares. Sa difficulté est le manque de frontières — le Poissons se perd, se sacrifie, fuit parfois une réalité trop dure dans le rêve ou les évasions. Apprendre à s'ancrer, à poser des limites et à distinguer compassion et sacrifice de soi est le grand chemin du Poissons.",
+      "mots_cles_synthese": ["sensibilité", "intuition", "rêve", "empathie", "dissolution"]
+    }
+  }
+}

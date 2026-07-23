@@ -1,0 +1,225 @@
+{
+  "_meta": {
+    "systeme": "Astrologie Chinoise",
+    "version": "1.0",
+    "origine": "Chine impériale — traditions millénaires",
+    "usage": "L'astrologie chinoise repose sur un cycle de 12 animaux et 5 éléments, formant un cycle complet de 60 ans. Le signe animal dépend de l'année de naissance (calendrier lunaire). L'élément et la polarité (Yin/Yang) affinent le portrait.",
+    "note_calcul": "Attention : le nouvel an chinois tombe entre fin janvier et mi-février. Une personne née en janvier ou début février peut appartenir au signe de l'année précédente. Le calcul précis nécessite la date exacte du nouvel an lunaire."
+  },
+
+  "elements": {
+    "bois": {
+      "nom": "Bois",
+      "annees_terminaison": "4, 5",
+      "nature": "Croissance, créativité, expansion, coopération",
+      "en_bref": "Le Bois apporte croissance, générosité et sens de la coopération. Énergie de printemps, tournée vers l'expansion et l'idéalisme."
+    },
+    "feu": {
+      "nom": "Feu",
+      "annees_terminaison": "6, 7",
+      "nature": "Passion, dynamisme, leadership, expression",
+      "en_bref": "Le Feu apporte passion, charisme et dynamisme. Énergie intense et communicative, tournée vers l'action et le rayonnement."
+    },
+    "terre": {
+      "nom": "Terre",
+      "annees_terminaison": "8, 9",
+      "nature": "Stabilité, fiabilité, patience, ancrage",
+      "en_bref": "La Terre apporte stabilité, sens pratique et fiabilité. Énergie d'équilibre, tournée vers la construction patiente et le concret."
+    },
+    "metal": {
+      "nom": "Métal",
+      "annees_terminaison": "0, 1",
+      "nature": "Rigueur, détermination, structure, force",
+      "en_bref": "Le Métal apporte rigueur, volonté et détermination. Énergie tranchante et structurée, tournée vers la maîtrise et l'ambition."
+    },
+    "eau": {
+      "nom": "Eau",
+      "annees_terminaison": "2, 3",
+      "nature": "Intuition, adaptabilité, sagesse, communication",
+      "en_bref": "L'Eau apporte intuition, souplesse et profondeur. Énergie fluide et sensible, tournée vers la sagesse et l'adaptation."
+    }
+  },
+
+  "signes": {
+    "rat": {
+      "nom": "Rat",
+      "glyph": "鼠",
+      "ordre": 1,
+      "annees_recentes": [2020, 2008, 1996, 1984, 1972, 1960],
+      "polarite": "Yang",
+      "element_fixe": "Eau",
+      "heures": "23h – 1h",
+      "identite_rapide": "Vif, intelligent et débrouillard. Le Rat est charmeur, opportuniste et doté d'un sens aigu de l'adaptation.",
+      "traits_positifs": ["Intelligent", "Adaptable", "Charmeur", "Débrouillard", "Sociable"],
+      "traits_a_travailler": ["Opportuniste", "Anxieux", "Avare", "Manipulateur", "Agité"],
+      "texte_fond": "Premier des douze animaux, le Rat symbolise la vivacité d'esprit et l'ingéniosité. Doté d'une intelligence pratique remarquable, il sait saisir les opportunités et se sortir de toutes les situations. Charmeur et sociable, il tisse des réseaux avec habileté. Son défi est de canaliser son anxiété et de ne pas verser dans l'opportunisme. Le Rat réussit par son astuce et sa capacité d'adaptation.",
+      "compatibilite": "Dragon, Singe",
+      "en_amour": "Le Rat est charmeur et attentionné, mais a besoin de stimulation intellectuelle. Fidèle une fois attaché, il protège les siens."
+    },
+    "boeuf": {
+      "nom": "Bœuf",
+      "glyph": "牛",
+      "ordre": 2,
+      "annees_recentes": [2021, 2009, 1997, 1985, 1973, 1961],
+      "polarite": "Yin",
+      "element_fixe": "Terre",
+      "heures": "1h – 3h",
+      "identite_rapide": "Patient, fiable et travailleur. Le Bœuf est solide, déterminé et avance avec constance vers ses objectifs.",
+      "traits_positifs": ["Fiable", "Patient", "Travailleur", "Déterminé", "Honnête"],
+      "traits_a_travailler": ["Têtu", "Rigide", "Lent à changer", "Renfermé", "Autoritaire"],
+      "texte_fond": "Le Bœuf incarne la force tranquille, la persévérance et la fiabilité. Travailleur infatigable, il avance avec constance et méthode, sans jamais renoncer. Honnête et loyal, on peut toujours compter sur lui. Son défi est la souplesse — apprendre à s'adapter et à s'ouvrir plutôt que de s'enfermer dans ses certitudes. Le Bœuf réussit par l'effort patient et la ténacité.",
+      "compatibilite": "Serpent, Coq",
+      "en_amour": "Le Bœuf est loyal, stable et protecteur. Peu démonstratif, il exprime son amour par l'engagement durable et les actes."
+    },
+    "tigre": {
+      "nom": "Tigre",
+      "glyph": "虎",
+      "ordre": 3,
+      "annees_recentes": [2022, 2010, 1998, 1986, 1974, 1962],
+      "polarite": "Yang",
+      "element_fixe": "Bois",
+      "heures": "3h – 5h",
+      "identite_rapide": "Courageux, passionné et rebelle. Le Tigre est un meneur charismatique qui suit son instinct avec audace.",
+      "traits_positifs": ["Courageux", "Charismatique", "Passionné", "Généreux", "Indépendant"],
+      "traits_a_travailler": ["Impulsif", "Rebelle", "Imprévisible", "Autoritaire", "Impatient"],
+      "texte_fond": "Le Tigre incarne le courage, la passion et l'esprit rebelle. Meneur naturel au charisme magnétique, il fonce avec audace et défend ses convictions avec ardeur. Généreux et protecteur, il inspire ceux qui l'entourent. Son défi est de maîtriser son impulsivité et son besoin d'indépendance absolue. Le Tigre réussit par son audace et sa force de caractère.",
+      "compatibilite": "Cheval, Chien",
+      "en_amour": "Le Tigre aime avec passion et intensité. Il a besoin de liberté et d'admiration, et déteste être contrôlé."
+    },
+    "lapin": {
+      "nom": "Lapin",
+      "glyph": "兔",
+      "ordre": 4,
+      "annees_recentes": [2023, 2011, 1999, 1987, 1975, 1963],
+      "polarite": "Yin",
+      "element_fixe": "Bois",
+      "heures": "5h – 7h",
+      "identite_rapide": "Doux, diplomate et raffiné. Le Lapin est sensible, élégant et recherche l'harmonie et la sécurité.",
+      "traits_positifs": ["Diplomate", "Raffiné", "Doux", "Intuitif", "Prudent"],
+      "traits_a_travailler": ["Fuyant les conflits", "Anxieux", "Distant", "Trop prudent", "Susceptible"],
+      "texte_fond": "Le Lapin incarne la douceur, l'élégance et la diplomatie. Sensible et raffiné, il recherche l'harmonie et évite les conflits. Intuitif et prudent, il avance avec finesse et sait s'entourer de beauté. Son défi est d'affronter les difficultés plutôt que de les fuir, et de gérer son anxiété. Le Lapin réussit par sa diplomatie et son sens des relations.",
+      "compatibilite": "Chèvre, Cochon",
+      "en_amour": "Le Lapin est tendre, attentionné et romantique. Il a besoin de douceur, de sécurité et d'un environnement harmonieux."
+    },
+    "dragon": {
+      "nom": "Dragon",
+      "glyph": "龍",
+      "ordre": 5,
+      "annees_recentes": [2024, 2012, 2000, 1988, 1976, 1964],
+      "polarite": "Yang",
+      "element_fixe": "Terre",
+      "heures": "7h – 9h",
+      "identite_rapide": "Charismatique, ambitieux et flamboyant. Le Dragon est un être solaire, plein de force et de vision.",
+      "traits_positifs": ["Charismatique", "Ambitieux", "Généreux", "Visionnaire", "Chanceux"],
+      "traits_a_travailler": ["Orgueilleux", "Dominateur", "Impatient", "Intransigeant", "Égocentrique"],
+      "texte_fond": "Seul animal mythique du zodiaque chinois, le Dragon symbolise la puissance, le charisme et la chance. Être solaire et flamboyant, il porte de grandes ambitions et une vision élevée. Généreux et protecteur, il inspire l'admiration. Son défi est l'humilité — apprendre à écouter et à ne pas écraser les autres de sa force. Le Dragon réussit par son charisme et son envergure.",
+      "compatibilite": "Rat, Singe",
+      "en_amour": "Le Dragon aime avec générosité et intensité. Il a besoin d'admiration et de reconnaissance, et se montre protecteur."
+    },
+    "serpent": {
+      "nom": "Serpent",
+      "glyph": "蛇",
+      "ordre": 6,
+      "annees_recentes": [2025, 2013, 2001, 1989, 1977, 1965],
+      "polarite": "Yin",
+      "element_fixe": "Feu",
+      "heures": "9h – 11h",
+      "identite_rapide": "Sage, intuitif et mystérieux. Le Serpent est profond, élégant et doté d'une intelligence perçante.",
+      "traits_positifs": ["Sage", "Intuitif", "Élégant", "Perspicace", "Réfléchi"],
+      "traits_a_travailler": ["Secret", "Méfiant", "Possessif", "Rancunier", "Manipulateur"],
+      "texte_fond": "Le Serpent incarne la sagesse, l'intuition et le mystère. Doté d'une intelligence profonde et perçante, il observe et comprend avant d'agir. Élégant et charismatique, il fascine par son aura énigmatique. Son défi est la confiance — apprendre à s'ouvrir et à lâcher la méfiance et la possessivité. Le Serpent réussit par sa sagesse et sa perspicacité.",
+      "compatibilite": "Bœuf, Coq",
+      "en_amour": "Le Serpent aime avec profondeur et intensité. Séduisant et possessif, il a besoin de confiance et de loyauté absolue."
+    },
+    "cheval": {
+      "nom": "Cheval",
+      "glyph": "馬",
+      "ordre": 7,
+      "annees_recentes": [2026, 2014, 2002, 1990, 1978, 1966],
+      "polarite": "Yang",
+      "element_fixe": "Feu",
+      "heures": "11h – 13h",
+      "identite_rapide": "Libre, énergique et sociable. Le Cheval est un aventurier passionné qui a besoin de mouvement et d'indépendance.",
+      "traits_positifs": ["Énergique", "Libre", "Sociable", "Enthousiaste", "Courageux"],
+      "traits_a_travailler": ["Impatient", "Instable", "Égoïste", "Inconstant", "Impulsif"],
+      "texte_fond": "Le Cheval incarne la liberté, l'énergie et l'enthousiasme. Aventurier dans l'âme, il a besoin de mouvement, de grands espaces et d'indépendance. Sociable et chaleureux, il séduit par sa vitalité communicative. Son défi est la constance et la patience — apprendre à mener les choses au bout plutôt qu'à courir vers l'aventure suivante. Le Cheval réussit par son dynamisme et son courage.",
+      "compatibilite": "Tigre, Chien",
+      "en_amour": "Le Cheval aime passionnément mais a besoin de liberté. Il craint l'enfermement et cherche un partenaire complice et indépendant."
+    },
+    "chevre": {
+      "nom": "Chèvre",
+      "glyph": "羊",
+      "ordre": 8,
+      "annees_recentes": [2027, 2015, 2003, 1991, 1979, 1967],
+      "polarite": "Yin",
+      "element_fixe": "Terre",
+      "heures": "13h – 15h",
+      "identite_rapide": "Douce, artistique et sensible. La Chèvre est créative, empathique et recherche la paix et la beauté.",
+      "traits_positifs": ["Créative", "Douce", "Empathique", "Artistique", "Généreuse"],
+      "traits_a_travailler": ["Indécise", "Anxieuse", "Dépendante", "Pessimiste", "Susceptible"],
+      "texte_fond": "La Chèvre incarne la douceur, la créativité et la sensibilité artistique. Empathique et généreuse, elle recherche l'harmonie, la paix et la beauté. Dotée d'une grande imagination, elle a une âme d'artiste. Son défi est la confiance en soi et l'indépendance — apprendre à s'affirmer et à surmonter son anxiété. La Chèvre réussit par sa créativité et sa sensibilité.",
+      "compatibilite": "Lapin, Cochon",
+      "en_amour": "La Chèvre est tendre, dévouée et romantique. Elle a besoin de sécurité affective et d'un partenaire rassurant et protecteur."
+    },
+    "singe": {
+      "nom": "Singe",
+      "glyph": "猴",
+      "ordre": 9,
+      "annees_recentes": [2028, 2016, 2004, 1992, 1980, 1968],
+      "polarite": "Yang",
+      "element_fixe": "Métal",
+      "heures": "15h – 17h",
+      "identite_rapide": "Malin, vif et inventif. Le Singe est brillant, curieux et doté d'un humour et d'une agilité mentale remarquables.",
+      "traits_positifs": ["Intelligent", "Inventif", "Vif", "Drôle", "Adaptable"],
+      "traits_a_travailler": ["Rusé", "Instable", "Moqueur", "Opportuniste", "Impatient"],
+      "texte_fond": "Le Singe incarne l'intelligence vive, l'inventivité et l'esprit joueur. Brillant et curieux, il résout les problèmes avec ingéniosité et séduit par son humour. Adaptable et rapide, il excelle dans mille domaines. Son défi est la constance et la sincérité — apprendre à ne pas se disperser ni verser dans la ruse. Le Singe réussit par son intelligence et sa créativité.",
+      "compatibilite": "Rat, Dragon",
+      "en_amour": "Le Singe est charmeur, drôle et vif. Il a besoin de complicité intellectuelle et de légèreté, et craint la routine."
+    },
+    "coq": {
+      "nom": "Coq",
+      "glyph": "雞",
+      "ordre": 10,
+      "annees_recentes": [2029, 2017, 2005, 1993, 1981, 1969],
+      "polarite": "Yin",
+      "element_fixe": "Métal",
+      "heures": "17h – 19h",
+      "identite_rapide": "Franc, organisé et fier. Le Coq est travailleur, précis et n'a pas peur de dire ce qu'il pense.",
+      "traits_positifs": ["Franc", "Organisé", "Travailleur", "Loyal", "Courageux"],
+      "traits_a_travailler": ["Critique", "Orgueilleux", "Perfectionniste", "Autoritaire", "Susceptible"],
+      "texte_fond": "Le Coq incarne la franchise, l'organisation et la fierté. Travailleur méticuleux et honnête, il aime l'ordre et dit ce qu'il pense sans détour. Loyal et courageux, il défend ses valeurs avec ardeur. Son défi est la tolérance — apprendre à adoucir ses critiques et à accepter l'imperfection. Le Coq réussit par sa rigueur et son honnêteté.",
+      "compatibilite": "Bœuf, Serpent",
+      "en_amour": "Le Coq est loyal et dévoué mais exigeant. Il exprime son amour par l'attention aux détails et la fidélité."
+    },
+    "chien": {
+      "nom": "Chien",
+      "glyph": "狗",
+      "ordre": 11,
+      "annees_recentes": [2030, 2018, 2006, 1994, 1982, 1970],
+      "polarite": "Yang",
+      "element_fixe": "Terre",
+      "heures": "19h – 21h",
+      "identite_rapide": "Loyal, honnête et protecteur. Le Chien est fidèle, juste et défend les autres avec un sens moral profond.",
+      "traits_positifs": ["Loyal", "Honnête", "Juste", "Protecteur", "Fiable"],
+      "traits_a_travailler": ["Anxieux", "Pessimiste", "Méfiant", "Critique", "Têtu"],
+      "texte_fond": "Le Chien incarne la loyauté, l'honnêteté et le sens de la justice. Fidèle et protecteur, il défend les siens et les causes justes avec un profond sens moral. On peut toujours compter sur lui. Son défi est de gérer son anxiété et son pessimisme, et d'apprendre à faire confiance. Le Chien réussit par sa fiabilité et son intégrité.",
+      "compatibilite": "Tigre, Cheval",
+      "en_amour": "Le Chien est loyal, dévoué et sincère. Il a besoin de confiance et de sécurité, et se donne entièrement une fois engagé."
+    },
+    "cochon": {
+      "nom": "Cochon",
+      "glyph": "豬",
+      "ordre": 12,
+      "annees_recentes": [2031, 2019, 2007, 1995, 1983, 1971],
+      "polarite": "Yin",
+      "element_fixe": "Eau",
+      "heures": "21h – 23h",
+      "identite_rapide": "Généreux, sincère et jouisseur. Le Cochon est bienveillant, honnête et apprécie les plaisirs de la vie.",
+      "traits_positifs": ["Généreux", "Sincère", "Bienveillant", "Loyal", "Tolérant"],
+      "traits_a_travailler": ["Naïf", "Trop confiant", "Matérialiste", "Indolent", "Facile à berner"],
+      "texte_fond": "Dernier animal du zodiaque, le Cochon incarne la générosité, la sincérité et l'amour de la vie. Bienveillant et tolérant, il donne sans compter et apprécie les plaisirs simples. Honnête et loyal, il inspire confiance. Son défi est le discernement — apprendre à ne pas être trop naïf ni se laisser exploiter. Le Cochon réussit par sa générosité et sa droiture.",
+      "compatibilite": "Lapin, Chèvre",
+      "en_amour": "Le Cochon aime avec sincérité et générosité. Sensuel et dévoué, il cherche une relation stable et chaleureuse."
+    }
+  }
+}

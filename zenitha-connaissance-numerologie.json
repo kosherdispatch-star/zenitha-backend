@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "systeme": "Numérologie",
+    "version": "1.0",
+    "origine": "Pythagore — Antiquité grecque",
+    "usage": "La numérologie réduit la date de naissance et le nom en nombres qui révèlent la personnalité et le chemin de vie. Les nombres maîtres (11, 22, 33) ne se réduisent pas.",
+    "methode_calcul": {
+      "chemin_de_vie": "Somme de tous les chiffres de la date de naissance (jour+mois+année), réduite à un chiffre sauf nombres maîtres. C'est le nombre le plus important.",
+      "nombre_expression": "Somme des lettres du nom complet converties en chiffres (A=1, B=2... I=9, J=1...). Révèle les talents et la manière de s'exprimer.",
+      "nombre_ame": "Somme des voyelles du nom. Révèle les désirs profonds et les motivations intérieures.",
+      "nombre_personnalite": "Somme des consonnes du nom. Révèle l'image projetée à l'extérieur.",
+      "annee_personnelle": "Jour + mois de naissance + année en cours, réduit. Indique la tonalité de l'année en cours pour la personne."
+    }
+  },
+
+  "nombres": {
+    "1": {
+      "nombre": 1,
+      "titre": "Le Pionnier",
+      "mot_cle": "Indépendance & Initiative",
+      "en_bref": "Le 1 est le nombre du leader, de l'initiateur. Indépendant, ambitieux, il ouvre les chemins et avance seul.",
+      "traits_positifs": ["Leader", "Indépendant", "Déterminé", "Original", "Courageux"],
+      "traits_a_travailler": ["Égoïste", "Autoritaire", "Solitaire", "Impatient", "Orgueilleux"],
+      "chemin_de_vie": "Ton chemin est celui de l'affirmation de soi et du leadership. Tu es ici pour apprendre à te tenir debout, à initier, à devenir autonome. Ta réussite passe par l'audace et la confiance en ton propre jugement, tout en apprenant à ne pas écraser les autres.",
+      "texte_fond": "Le 1 est le premier nombre, celui du commencement et de l'unité. Il incarne l'énergie du pionnier : celui qui ose, qui initie, qui trace sa route. Le 1 a une forte volonté et un besoin d'indépendance ; il est fait pour diriger et innover. Son défi est l'équilibre entre affirmation de soi et prise en compte des autres — apprendre que la vraie force n'écrase pas mais élève.",
+      "en_amour": "En amour, le 1 a besoin d'admiration et de garder son indépendance. Il aime avec ardeur mais doit apprendre à laisser de la place à l'autre."
+    },
+    "2": {
+      "nombre": 2,
+      "titre": "Le Médiateur",
+      "mot_cle": "Coopération & Sensibilité",
+      "en_bref": "Le 2 est le nombre de l'harmonie, du lien et de la sensibilité. Diplomate, intuitif, il crée la paix et unit.",
+      "traits_positifs": ["Diplomate", "Sensible", "Coopératif", "Intuitif", "Patient"],
+      "traits_a_travailler": ["Hypersensible", "Dépendant", "Indécis", "Craintif", "Effacé"],
+      "chemin_de_vie": "Ton chemin est celui de la relation, de la coopération et de la paix. Tu es ici pour apprendre l'art du lien, de l'écoute et de l'équilibre. Ta force est ta sensibilité et ta capacité à unir — à condition de ne pas t'oublier toi-même dans le don aux autres.",
+      "texte_fond": "Le 2 est le nombre de la dualité, du couple et de l'harmonie. Là où le 1 affirme, le 2 relie. C'est un être de sensibilité, de diplomatie et d'intuition, qui cherche la paix et la coopération. Son défi est de ne pas se perdre dans le désir de plaire ou dans la dépendance affective — apprendre à s'affirmer avec douceur sans renoncer à sa propre voix.",
+      "en_amour": "En amour, le 2 est tendre, dévoué et fusionnel. Il a besoin de sécurité affective et donne beaucoup — parfois trop."
+    },
+    "3": {
+      "nombre": 3,
+      "titre": "Le Créateur",
+      "mot_cle": "Expression & Joie",
+      "en_bref": "Le 3 est le nombre de la créativité, de la communication et de la joie de vivre. Expressif, sociable, il rayonne.",
+      "traits_positifs": ["Créatif", "Sociable", "Optimiste", "Expressif", "Charmeur"],
+      "traits_a_travailler": ["Dispersé", "Superficiel", "Inconstant", "Bavard", "Fuyant"],
+      "chemin_de_vie": "Ton chemin est celui de l'expression créative et de la joie. Tu es ici pour créer, communiquer, inspirer et répandre de la lumière autour de toi. Ta réussite passe par l'expression authentique de tes dons — en évitant la dispersion et la superficialité.",
+      "texte_fond": "Le 3 est le nombre de la créativité et de l'expression. Fruit de l'union du 1 et du 2, il incarne la joie de créer et de communiquer. Sociable, optimiste, doué pour les mots et les arts, le 3 illumine ce qui l'entoure. Son défi est la constance et la profondeur — canaliser son énergie créative plutôt que de la disperser dans mille directions.",
+      "en_amour": "En amour, le 3 est léger, joyeux et charmeur. Il a besoin de complicité et de rire, et craint la lourdeur et la routine."
+    },
+    "4": {
+      "nombre": 4,
+      "titre": "Le Bâtisseur",
+      "mot_cle": "Stabilité & Travail",
+      "en_bref": "Le 4 est le nombre de la construction, de l'ordre et du travail. Solide, fiable, méthodique, il bâtit dans la durée.",
+      "traits_positifs": ["Fiable", "Travailleur", "Organisé", "Loyal", "Persévérant"],
+      "traits_a_travailler": ["Rigide", "Têtu", "Trop sérieux", "Résistant au changement", "Laborieux"],
+      "chemin_de_vie": "Ton chemin est celui de la construction patiente et du travail solide. Tu es ici pour bâtir des fondations durables, apprendre la discipline et la persévérance. Ta réussite vient de l'effort constant et de la fiabilité — en apprenant à t'assouplir et à accueillir le changement.",
+      "texte_fond": "Le 4 est le nombre de la structure, de la matière et du travail. Il incarne le bâtisseur patient qui construit brique après brique quelque chose de durable. Fiable, organisé, ancré dans le réel, le 4 est la colonne vertébrale sur laquelle on peut compter. Son défi est la rigidité — apprendre que la solidité n'exclut pas la souplesse et que le changement fait partie de la vie.",
+      "en_amour": "En amour, le 4 est loyal, stable et engagé. Il exprime son amour par des actes concrets plutôt que par des mots."
+    },
+    "5": {
+      "nombre": 5,
+      "titre": "L'Aventurier",
+      "mot_cle": "Liberté & Changement",
+      "en_bref": "Le 5 est le nombre de la liberté, du mouvement et de l'expérience. Curieux, adaptable, il aime le changement et l'aventure.",
+      "traits_positifs": ["Libre", "Adaptable", "Curieux", "Aventureux", "Vivant"],
+      "traits_a_travailler": ["Instable", "Impulsif", "Dispersé", "Excessif", "Fuyant l'engagement"],
+      "chemin_de_vie": "Ton chemin est celui de la liberté et de l'expérience. Tu es ici pour explorer, découvrir, t'adapter et embrasser le changement. Ta richesse est ta polyvalence et ta soif de vie — en apprenant à canaliser ton énergie pour ne pas te disperser ni fuir les engagements nécessaires.",
+      "texte_fond": "Le 5 est le nombre du mouvement, de la liberté et du changement. Placé au centre des nombres (1 à 9), il incarne la curiosité, l'adaptabilité et la soif d'expériences. Le 5 déteste les cadres rigides et a besoin de renouvellement constant. Son défi est l'ancrage — apprendre que la vraie liberté inclut la capacité de s'engager et d'aller au bout des choses.",
+      "en_amour": "En amour, le 5 a besoin de liberté et de renouvellement. Il craint la routine et l'enfermement, et cherche un partenaire qui le suit dans l'aventure."
+    },
+    "6": {
+      "nombre": 6,
+      "titre": "Le Protecteur",
+      "mot_cle": "Amour & Responsabilité",
+      "en_bref": "Le 6 est le nombre de l'amour, de la famille et de l'harmonie. Dévoué, responsable, il prend soin et crée la beauté.",
+      "traits_positifs": ["Aimant", "Responsable", "Dévoué", "Harmonieux", "Protecteur"],
+      "traits_a_travailler": ["Sacrifice de soi", "Contrôlant", "Anxieux pour les autres", "Perfectionniste", "Possessif"],
+      "chemin_de_vie": "Ton chemin est celui de l'amour, du service et de la responsabilité. Tu es ici pour prendre soin, créer de l'harmonie et du beau, aimer et protéger. Ta grandeur est ton cœur généreux — en apprenant à donner sans t'oublier ni te sacrifier, et à aimer sans vouloir contrôler.",
+      "texte_fond": "Le 6 est le nombre de l'amour, de la famille et de l'harmonie. C'est le nombre du foyer, du soin et de la responsabilité envers les autres. Le 6 crée de la beauté et prend soin de son entourage avec dévouement. Son défi est l'équilibre entre don de soi et respect de ses propres besoins — apprendre à aider sans se sacrifier et à aimer sans étouffer.",
+      "en_amour": "En amour, le 6 est le plus dévoué des nombres. Il se donne pleinement, protège et construit un foyer — attention à ne pas trop se sacrifier."
+    },
+    "7": {
+      "nombre": 7,
+      "titre": "L'Analyste",
+      "mot_cle": "Sagesse & Introspection",
+      "en_bref": "Le 7 est le nombre de la réflexion, de la spiritualité et de la quête intérieure. Profond, intuitif, il cherche la vérité.",
+      "traits_positifs": ["Réfléchi", "Intuitif", "Spirituel", "Sage", "Perspicace"],
+      "traits_a_travailler": ["Solitaire", "Distant", "Sceptique", "Renfermé", "Mélancolique"],
+      "chemin_de_vie": "Ton chemin est celui de la recherche de vérité et de la sagesse intérieure. Tu es ici pour comprendre en profondeur, développer ton intuition et ta spiritualité. Ta richesse est ta lucidité et ta profondeur — en apprenant à ne pas te couper des autres dans ta quête et à faire confiance autant qu'à analyser.",
+      "texte_fond": "Le 7 est le nombre de la sagesse, de l'introspection et de la spiritualité. C'est le chercheur de vérité, celui qui a besoin de solitude et de silence pour comprendre le sens caché des choses. Profondément intuitif et analytique à la fois, le 7 relie l'esprit et l'âme. Son défi est de ne pas s'isoler ni sombrer dans le doute — apprendre à partager sa profondeur et à faire confiance à la vie.",
+      "en_amour": "En amour, le 7 a besoin d'espace, de profondeur et de vérité. Il aime discrètement et déteste le superficiel ; il lui faut un partenaire qui respecte son besoin de solitude."
+    },
+    "8": {
+      "nombre": 8,
+      "titre": "L'Ambitieux",
+      "mot_cle": "Pouvoir & Réussite",
+      "en_bref": "Le 8 est le nombre de la réussite matérielle, du pouvoir et de l'ambition. Puissant, organisé, il vise le succès concret.",
+      "traits_positifs": ["Ambitieux", "Efficace", "Leader", "Résilient", "Réaliste"],
+      "traits_a_travailler": ["Matérialiste", "Autoritaire", "Dur", "Obsédé par le contrôle", "Workaholic"],
+      "chemin_de_vie": "Ton chemin est celui de la réussite, du pouvoir et de la maîtrise matérielle. Tu es ici pour apprendre à manier l'ambition, l'argent et l'autorité avec justesse. Ta puissance est réelle — en apprenant que le vrai succès inclut l'équilibre entre le matériel et le spirituel, et que le pouvoir se met au service.",
+      "texte_fond": "Le 8 est le nombre du pouvoir, de la réussite et de l'abondance matérielle. C'est le nombre de l'ambition, de l'efficacité et de la maîtrise du monde concret. Le 8 a une force et une résilience remarquables et vise les sommets. Son défi est de ne pas se laisser dévorer par le matérialisme ou le besoin de contrôle — apprendre que la vraie réussite équilibre l'avoir et l'être.",
+      "en_amour": "En amour, le 8 est loyal et protecteur mais parfois dominateur. Il exprime son amour par la sécurité qu'il offre — attention à ne pas confondre amour et contrôle."
+    },
+    "9": {
+      "nombre": 9,
+      "titre": "Le Sage",
+      "mot_cle": "Compassion & Universalité",
+      "en_bref": "Le 9 est le nombre de l'accomplissement, de l'humanisme et de la compassion universelle. Généreux, idéaliste, il donne au monde.",
+      "traits_positifs": ["Généreux", "Compatissant", "Idéaliste", "Sage", "Altruiste"],
+      "traits_a_travailler": ["Rêveur", "Sacrifice excessif", "Mélancolique", "Difficulté à lâcher le passé", "Dispersé"],
+      "chemin_de_vie": "Ton chemin est celui du don, de la compassion et de la sagesse universelle. Tu es ici pour élargir ton cœur au-delà de toi-même, servir un idéal plus grand. Ta grandeur est ton humanité — en apprenant à donner sans t'épuiser et à lâcher le passé pour te tourner vers l'avenir.",
+      "texte_fond": "Le 9 est le dernier nombre, celui de l'accomplissement et de l'universalité. Il incarne la compassion, l'idéalisme et le don désintéressé. Le 9 a vécu, compris, et cherche à servir quelque chose de plus grand que lui. Son défi est de ne pas se perdre dans le sacrifice ou la nostalgie — apprendre à donner avec sagesse et à accueillir le renouveau plutôt que de s'accrocher à ce qui s'achève.",
+      "en_amour": "En amour, le 9 aime avec largeur et générosité, parfois de manière idéalisée. Il a besoin de sens et de profondeur dans la relation."
+    },
+    "11": {
+      "nombre": 11,
+      "titre": "L'Illuminé",
+      "mot_cle": "Intuition & Inspiration (Nombre Maître)",
+      "en_bref": "Le 11 est un nombre maître — celui de l'intuition supérieure, de l'inspiration et de la sensibilité spirituelle. Un 2 amplifié.",
+      "traits_positifs": ["Visionnaire", "Intuitif", "Inspirant", "Sensible", "Spirituel"],
+      "traits_a_travailler": ["Hypersensible", "Anxieux", "Instable", "Rêveur", "Sous tension nerveuse"],
+      "chemin_de_vie": "Ton chemin est celui de l'intuition et de l'inspiration au service des autres. Nombre maître, tu portes un potentiel spirituel élevé et une sensibilité rare. Ta mission est d'inspirer et d'éveiller — en apprenant à gérer ton hypersensibilité et à ancrer tes visions dans le réel.",
+      "texte_fond": "Le 11 est le premier nombre maître, vibration supérieure du 2. Il incarne l'intuition élevée, l'inspiration et la connexion spirituelle. Le 11 est un canal, un visionnaire, souvent en avance sur son temps. Son immense sensibilité est à la fois un don et un fardeau — il vit sous forte tension nerveuse. Son défi est d'ancrer son potentiel spirituel dans le concret sans se laisser submerger.",
+      "en_amour": "En amour, le 11 est profond, idéaliste et fusionnel. Il cherche une connexion d'âme et a besoin d'un partenaire qui comprend sa sensibilité."
+    },
+    "22": {
+      "nombre": 22,
+      "titre": "Le Maître Bâtisseur",
+      "mot_cle": "Réalisation à grande échelle (Nombre Maître)",
+      "en_bref": "Le 22 est le plus puissant des nombres maîtres — celui qui transforme les grands rêves en réalités concrètes. Un 4 magnifié.",
+      "traits_positifs": ["Visionnaire concret", "Bâtisseur", "Puissant", "Ambitieux au sens noble", "Réalisateur"],
+      "traits_a_travailler": ["Pression intérieure énorme", "Peut s'écraser sous ses ambitions", "Intransigeant", "Stressé"],
+      "chemin_de_vie": "Ton chemin est celui de la réalisation à grande échelle. Nombre maître le plus puissant, tu peux transformer des visions immenses en constructions concrètes qui servent le collectif. Ta mission est vaste — en apprenant à gérer la pression intérieure et à avancer étape par étape sans t'écraser sous l'ampleur de tes rêves.",
+      "texte_fond": "Le 22 est le maître bâtisseur, vibration supérieure du 4. Il combine la vision spirituelle du 11 et la capacité de construction du 4 : il peut matérialiser de grands idéaux dans le monde réel. C'est le nombre des grands réalisateurs qui laissent une trace durable. Son défi est de supporter la pression colossale de son potentiel — apprendre à bâtir pas à pas sans se laisser paralyser par l'ampleur de sa mission.",
+      "en_amour": "En amour, le 22 est loyal et engagé mais souvent absorbé par sa mission. Il a besoin d'un partenaire qui soutient sa vision."
+    },
+    "33": {
+      "nombre": 33,
+      "titre": "Le Maître Enseignant",
+      "mot_cle": "Amour inconditionnel (Nombre Maître)",
+      "en_bref": "Le 33 est le plus rare et le plus élevé des nombres maîtres — celui de l'amour inconditionnel et du service spirituel. Un 6 sublimé.",
+      "traits_positifs": ["Amour inconditionnel", "Guérisseur", "Enseignant spirituel", "Profondément altruiste", "Élevé"],
+      "traits_a_travailler": ["Poids des responsabilités", "Sacrifice extrême", "Idéalisme épuisant"],
+      "chemin_de_vie": "Ton chemin est celui de l'amour inconditionnel et de l'enseignement spirituel. Nombre maître le plus rare, tu portes une vocation de guérison et d'élévation des autres. Ta mission est immense — en apprenant à donner cet amour sans t'épuiser totalement, et à prendre soin de toi autant que des autres.",
+      "texte_fond": "Le 33 est le maître enseignant, vibration supérieure du 6 et nombre maître le plus rare. Il incarne l'amour inconditionnel, la compassion universelle et le service spirituel désintéressé. Le 33 est une figure de guérisseur et de guide, entièrement dévoué au bien des autres. Son défi est de ne pas se consumer dans le don total — apprendre que servir inclut aussi de se préserver.",
+      "en_amour": "En amour, le 33 aime de manière universelle et profondément généreuse. Il doit veiller à ne pas s'oublier complètement dans le don à l'autre."
+    }
+  }
+}

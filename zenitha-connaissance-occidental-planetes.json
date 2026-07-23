@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "systeme": "Astrologie Occidentale — Planètes",
+    "version": "1.0",
+    "usage": "Chaque planète représente une fonction psychique. Le signe où elle se trouve colore cette fonction ; la maison indique le domaine de vie où elle s'exprime."
+  },
+
+  "planetes": {
+    "soleil": {
+      "nom": "Soleil",
+      "glyph": "☉",
+      "fonction": "L'identité, l'ego, la vitalité, ce que l'on cherche à devenir",
+      "gouverne": "Lion",
+      "cycle": "1 an (environ 1 mois par signe)",
+      "en_bref": "Le Soleil est le cœur du thème. Il représente qui tu es fondamentalement, ton élan vital, ta volonté consciente et ce vers quoi tu tends.",
+      "en_amour": "Le Soleil montre ce qui te fait rayonner et comment tu veux être reconnu dans une relation.",
+      "texte_fond": "Le Soleil est l'astre central du thème, celui qui donne son signe le plus connu. Il symbolise l'identité profonde, la conscience, la volonté et la direction de vie. Là où se trouve ton Soleil, tu cherches à briller, à te réaliser, à devenir pleinement toi-même. C'est le noyau autour duquel s'organise toute la personnalité — la question qu'il pose est : qui suis-je vraiment, et comment vais-je rayonner ?",
+      "mots_cles": ["identité", "volonté", "vitalité", "réalisation de soi"]
+    },
+    "lune": {
+      "nom": "Lune",
+      "glyph": "☽",
+      "fonction": "Les émotions, les besoins, l'inconscient, la sécurité intérieure",
+      "gouverne": "Cancer",
+      "cycle": "environ 28 jours (2,5 jours par signe)",
+      "en_bref": "La Lune est ton monde intérieur — tes émotions, tes réactions instinctives, ce dont tu as besoin pour te sentir en sécurité.",
+      "en_amour": "La Lune révèle tes besoins affectifs profonds et comment tu donnes et reçois de la tendresse.",
+      "texte_fond": "La Lune gouverne la vie émotionnelle, les besoins profonds, la mémoire et l'inconscient. Là où le Soleil dit ce que l'on cherche à devenir, la Lune dit ce dont on a besoin pour se sentir en sécurité. Elle représente l'enfant en soi, les réactions instinctives, le rapport à la mère et au foyer. Son signe colore ta manière de ressentir et de te réconforter. C'est l'un des points les plus intimes du thème, souvent plus vrai que le Soleil dans la vie privée.",
+      "mots_cles": ["émotions", "besoins", "instinct", "sécurité intérieure"]
+    },
+    "mercure": {
+      "nom": "Mercure",
+      "glyph": "☿",
+      "fonction": "La pensée, la parole, la communication, l'apprentissage",
+      "gouverne": "Gémeaux et Vierge",
+      "cycle": "environ 1 an, avec 3 rétrogradations par an",
+      "en_bref": "Mercure gouverne ta façon de penser, de parler, d'apprendre et d'échanger des informations.",
+      "en_amour": "Mercure montre comment tu communiques dans la relation et ce qui nourrit la complicité intellectuelle.",
+      "texte_fond": "Mercure est la planète de l'esprit, de la parole et des échanges. Il gouverne la façon dont tu penses, apprends, raisonnes et communiques. Son signe indique si ta pensée est rapide ou réfléchie, concrète ou abstraite, directe ou nuancée. C'est aussi la planète des déplacements, du commerce et de tout ce qui relie. Quand Mercure est rétrograde, la tradition astrologique invite à la prudence dans les communications et les décisions — mais c'est une période propice à la révision et à la réflexion.",
+      "mots_cles": ["pensée", "communication", "apprentissage", "échange"]
+    },
+    "venus": {
+      "nom": "Vénus",
+      "glyph": "♀",
+      "fonction": "L'amour, l'attirance, le plaisir, les valeurs, l'esthétique",
+      "gouverne": "Taureau et Balance",
+      "cycle": "environ 1 an (variable par signe)",
+      "en_bref": "Vénus gouverne l'amour, ce qui t'attire, ce que tu trouves beau et ce que tu valorises.",
+      "en_amour": "Vénus est LA planète de l'amour — elle révèle comment tu aimes, ce qui te séduit et ce que tu recherches chez l'autre.",
+      "texte_fond": "Vénus est la planète de l'amour, du plaisir, de la beauté et des valeurs. Elle révèle ce qui t'attire, comment tu séduis et comment tu aimes, mais aussi ton rapport à l'argent, au plaisir et à l'harmonie. Son signe colore ta manière d'entrer en relation et ce que tu recherches chez un partenaire. C'est aussi la planète du goût et de l'esthétique — ce que tu trouves beau et désirable. Vénus dit comment tu crées du lien et de la douceur dans ta vie.",
+      "mots_cles": ["amour", "attirance", "plaisir", "valeurs", "beauté"]
+    },
+    "mars": {
+      "nom": "Mars",
+      "glyph": "♂",
+      "fonction": "L'action, le désir, l'énergie, la combativité, la sexualité",
+      "gouverne": "Bélier (et Scorpion en traditionnel)",
+      "cycle": "environ 2 ans",
+      "en_bref": "Mars gouverne ton énergie, ta façon d'agir, de désirer et de te battre pour ce que tu veux.",
+      "en_amour": "Mars révèle ton désir, ta manière de conquérir et l'énergie sexuelle dans la relation.",
+      "texte_fond": "Mars est la planète de l'action, du désir et de l'énergie. Elle gouverne la façon dont tu te bats, dont tu poursuis ce que tu veux, dont tu exprimes ta colère et ton élan sexuel. Son signe indique si ton énergie est directe ou stratégique, impulsive ou maîtrisée. C'est la force de volonté en mouvement — le carburant qui te fait passer à l'acte. Bien canalisé, Mars donne courage et détermination ; mal géré, il vire à l'agressivité ou à l'impatience.",
+      "mots_cles": ["action", "désir", "énergie", "combativité"]
+    },
+    "jupiter": {
+      "nom": "Jupiter",
+      "glyph": "♃",
+      "fonction": "L'expansion, la chance, la croissance, le sens, l'optimisme",
+      "gouverne": "Sagittaire (et Poissons en traditionnel)",
+      "cycle": "environ 12 ans (1 an par signe)",
+      "en_bref": "Jupiter est la planète de l'expansion et de la chance — là où elle se trouve, tu grandis et tu trouves du sens.",
+      "en_amour": "Jupiter apporte générosité et croissance dans la relation, un désir de grandir ensemble.",
+      "texte_fond": "Jupiter est la grande bénéfique, planète de l'expansion, de la croissance et du sens. Là où elle se trouve dans ton thème, tu cherches à grandir, à t'élargir, à donner du sens. Elle gouverne la foi, la philosophie, les voyages, l'enseignement et tout ce qui ouvre l'horizon. Jupiter apporte optimisme, opportunités et générosité — mais son excès peut mener à la démesure ou à l'imprudence. Ses transits sont souvent vécus comme des périodes d'ouverture et de chance.",
+      "mots_cles": ["expansion", "chance", "sens", "croissance", "optimisme"]
+    },
+    "saturne": {
+      "nom": "Saturne",
+      "glyph": "♄",
+      "fonction": "La structure, la limite, la discipline, la maturité, le temps",
+      "gouverne": "Capricorne (et Verseau en traditionnel)",
+      "cycle": "environ 29 ans (2,5 ans par signe)",
+      "en_bref": "Saturne est le maître du temps et des limites — là où elle se trouve, tu apprends la patience, la responsabilité et la maîtrise.",
+      "en_amour": "Saturne apporte sérieux et engagement durable, mais peut aussi révéler des peurs ou des blocages à dépasser.",
+      "texte_fond": "Saturne est la planète de la structure, du temps, de la discipline et de la maturité. Là où elle se trouve, tu rencontres des épreuves, des limites, des responsabilités — mais c'est aussi là que tu construis quelque chose de solide et durable. Saturne enseigne par la difficulté : ce qu'elle touche demande effort et patience, mais offre en retour maîtrise et sagesse. Le fameux « retour de Saturne » vers 29 ans marque un passage de maturité important. Saturne n'est pas une punition mais un professeur exigeant.",
+      "mots_cles": ["structure", "limite", "discipline", "maturité", "responsabilité"]
+    },
+    "uranus": {
+      "nom": "Uranus",
+      "glyph": "♅",
+      "fonction": "La rupture, l'innovation, la liberté, l'imprévu, l'éveil",
+      "gouverne": "Verseau",
+      "cycle": "environ 84 ans (7 ans par signe)",
+      "en_bref": "Uranus est la planète de la rupture et du changement soudain — là où elle se trouve, tu cherches liberté et originalité.",
+      "en_amour": "Uranus apporte une dimension libre, imprévisible et non conventionnelle aux relations.",
+      "texte_fond": "Uranus est la planète de la rupture, de l'innovation et de la liberté. Planète lente et générationnelle, elle marque là où tu as besoin d'originalité, d'indépendance et de renouveau. Uranus provoque des changements soudains, des éveils, des libérations — souvent inconfortables mais nécessaires. Elle brise ce qui est figé pour faire place au neuf. Là où elle se trouve dans ton thème, tu refuses le conformisme et cherches ta propre voie, quitte à surprendre.",
+      "mots_cles": ["rupture", "innovation", "liberté", "éveil"]
+    },
+    "neptune": {
+      "nom": "Neptune",
+      "glyph": "♆",
+      "fonction": "Le rêve, la spiritualité, l'imagination, l'illusion, la compassion",
+      "gouverne": "Poissons",
+      "cycle": "environ 165 ans (14 ans par signe)",
+      "en_bref": "Neptune est la planète du rêve et de la spiritualité — là où elle se trouve, les frontières se dissolvent, pour le meilleur et le flou.",
+      "en_amour": "Neptune apporte idéalisation, fusion et romantisme — mais aussi le risque d'illusion.",
+      "texte_fond": "Neptune est la planète du rêve, de la spiritualité, de l'imagination et de la dissolution des frontières. Planète lente et générationnelle, elle marque là où tu cherches le transcendant, l'idéal, l'union avec plus grand que soi. Neptune inspire l'art, la compassion et la spiritualité, mais peut aussi créer de la confusion, des illusions ou des fuites. Là où elle se trouve, la réalité devient poreuse — c'est un lieu de sensibilité extrême, de créativité et parfois de désillusion nécessaire.",
+      "mots_cles": ["rêve", "spiritualité", "imagination", "compassion", "illusion"]
+    },
+    "pluton": {
+      "nom": "Pluton",
+      "glyph": "♇",
+      "fonction": "La transformation, le pouvoir, la mort/renaissance, l'inconscient profond",
+      "gouverne": "Scorpion",
+      "cycle": "environ 248 ans (variable par signe)",
+      "en_bref": "Pluton est la planète de la transformation profonde — là où elle se trouve, tu meurs et renais, tu affrontes ton ombre et ton pouvoir.",
+      "en_amour": "Pluton apporte une intensité fusionnelle et transformatrice, des relations qui changent en profondeur.",
+      "texte_fond": "Pluton est la planète de la transformation, du pouvoir et des profondeurs de l'inconscient. Planète la plus lente, elle marque là où tu vis des processus de mort et de renaissance, où tu affrontes tes zones d'ombre et ton rapport au pouvoir. Pluton détruit pour régénérer : ce qu'elle touche est amené à se transformer radicalement, souvent par des crises. Là où elle se trouve dans ton thème, tu ne peux pas rester en surface — tu es appelé à une métamorphose profonde et à une puissance intérieure durement acquise.",
+      "mots_cles": ["transformation", "pouvoir", "renaissance", "profondeur"]
+    }
+  }
+}

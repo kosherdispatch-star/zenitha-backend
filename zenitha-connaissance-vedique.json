@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "systeme": "Astrologie Védique (Jyotisha)",
+    "version": "1.0",
+    "origine": "Inde — tradition védique, textes anciens",
+    "usage": "Le Jyotisha (« science de la lumière ») utilise le zodiaque sidéral (basé sur les constellations réelles), décalé d'environ 24° par rapport au zodiaque occidental tropical. Ses piliers : les 12 signes (Rashi), les 27 constellations lunaires (Nakshatras), et les grandes périodes planétaires (Dashas).",
+    "difference_occidental": "Contrairement à l'astrologie occidentale qui privilégie le Soleil, le Jyotisha accorde une importance centrale à la Lune et au signe lunaire. Il est réputé pour son approche karmique et prédictive via les Dashas.",
+    "ayanamsa": "Le décalage entre zodiaque tropical et sidéral (Ayanamsa Lahiri ≈ 24°) doit être soustrait pour convertir une position occidentale en position védique."
+  },
+
+  "concepts_cles": {
+    "rashi": "Le signe du zodiaque sidéral (équivalent des 12 signes, mais décalés). Le Rashi lunaire (position de la Lune) est le plus important.",
+    "lagna": "L'ascendant védique — le signe qui se levait à l'horizon à la naissance. Fondamental pour la structure du thème.",
+    "nakshatra": "L'une des 27 constellations lunaires. La Lune traverse une Nakshatra par jour environ. Elle affine profondément le portrait psychologique.",
+    "dasha": "Les grandes périodes planétaires qui se succèdent au cours de la vie (système Vimshottari, cycle de 120 ans). Chaque planète gouverne une période durant laquelle son énergie domine.",
+    "graha": "Les planètes védiques (9 au total, incluant les nœuds lunaires Rahu et Ketu)."
+  },
+
+  "dashas_vimshottari": {
+    "note": "Le système Vimshottari répartit 120 ans entre 9 planètes. La Dasha en cours indique quelle énergie planétaire domine la période de vie actuelle.",
+    "periodes": {
+      "ketu": { "duree_ans": 7, "theme": "Spiritualité, détachement, lâcher-prise, karma passé" },
+      "venus": { "duree_ans": 20, "theme": "Amour, plaisir, art, relations, confort, créativité" },
+      "soleil": { "duree_ans": 6, "theme": "Identité, autorité, reconnaissance, vitalité, père" },
+      "lune": { "duree_ans": 10, "theme": "Émotions, foyer, sensibilité, mère, intuition" },
+      "mars": { "duree_ans": 7, "theme": "Action, énergie, courage, conflit, ambition" },
+      "rahu": { "duree_ans": 18, "theme": "Désir mondain, ambition, obsession, transformation karmique, matérialité" },
+      "jupiter": { "duree_ans": 16, "theme": "Sagesse, expansion, spiritualité, chance, enseignement, enfants" },
+      "saturne": { "duree_ans": 19, "theme": "Discipline, épreuves, maturité, karma, patience, responsabilité" },
+      "mercure": { "duree_ans": 17, "theme": "Intelligence, communication, commerce, apprentissage, adaptabilité" }
+    }
+  },
+
+  "nakshatras": {
+    "note": "Les 27 Nakshatras sont les constellations lunaires, chacune couvrant 13°20' du zodiaque. La Nakshatra de naissance (position de la Lune) est un pilier du portrait védique. Voici les 27 avec leur essence.",
+    "liste": {
+      "ashwini": { "ordre": 1, "symbole": "Tête de cheval", "planete": "Ketu", "essence": "Guérison, rapidité, nouveaux départs, énergie pionnière" },
+      "bharani": { "ordre": 2, "symbole": "Yoni", "planete": "Vénus", "essence": "Transformation, création, intensité, cycles de vie et mort" },
+      "krittika": { "ordre": 3, "symbole": "Lame / flamme", "planete": "Soleil", "essence": "Purification, détermination, force tranchante, ardeur" },
+      "rohini": { "ordre": 4, "symbole": "Char / arbre", "planete": "Lune", "essence": "Beauté, fertilité, sensualité, croissance, magnétisme" },
+      "mrigashira": { "ordre": 5, "symbole": "Tête de cerf", "planete": "Mars", "essence": "Quête, curiosité, douceur, recherche, mouvement" },
+      "ardra": { "ordre": 6, "symbole": "Goutte / tête", "planete": "Rahu", "essence": "Transformation par la crise, intensité émotionnelle, renouveau" },
+      "punarvasu": { "ordre": 7, "symbole": "Carquois", "planete": "Jupiter", "essence": "Renouveau, retour, optimisme, sagesse, protection" },
+      "pushya": { "ordre": 8, "symbole": "Fleur / pis", "planete": "Saturne", "essence": "Nourriture spirituelle, soin, stabilité, dévotion (Nakshatra très favorable)" },
+      "ashlesha": { "ordre": 9, "symbole": "Serpent lové", "planete": "Mercure", "essence": "Intuition profonde, mystère, pouvoir hypnotique, sagesse cachée" },
+      "magha": { "ordre": 10, "symbole": "Trône", "planete": "Ketu", "essence": "Royauté, ancêtres, autorité, tradition, dignité" },
+      "purva_phalguni": { "ordre": 11, "symbole": "Hamac", "planete": "Vénus", "essence": "Plaisir, détente, créativité, amour, sociabilité" },
+      "uttara_phalguni": { "ordre": 12, "symbole": "Lit", "planete": "Soleil", "essence": "Générosité, contrats, amitié, service, fiabilité" },
+      "hasta": { "ordre": 13, "symbole": "Main", "planete": "Lune", "essence": "Habileté, artisanat, dextérité, réalisation concrète" },
+      "chitra": { "ordre": 14, "symbole": "Perle brillante", "planete": "Mars", "essence": "Beauté, créativité, éclat, art, charisme" },
+      "swati": { "ordre": 15, "symbole": "Jeune pousse au vent", "planete": "Rahu", "essence": "Indépendance, souplesse, mouvement, commerce, liberté" },
+      "vishakha": { "ordre": 16, "symbole": "Arche triomphale", "planete": "Jupiter", "essence": "Détermination, objectif, ambition, quête de but" },
+      "anuradha": { "ordre": 17, "symbole": "Fleur de lotus", "planete": "Saturne", "essence": "Amitié, dévotion, succès par la collaboration, loyauté" },
+      "jyeshtha": { "ordre": 18, "symbole": "Boucle d'oreille", "planete": "Mercure", "essence": "Séniorité, protection, responsabilité, pouvoir, courage" },
+      "mula": { "ordre": 19, "symbole": "Racines liées", "planete": "Ketu", "essence": "Recherche de vérité profonde, déracinement, transformation radicale" },
+      "purva_ashadha": { "ordre": 20, "symbole": "Éventail", "planete": "Vénus", "essence": "Invincibilité, conviction, force de persuasion, purification" },
+      "uttara_ashadha": { "ordre": 21, "symbole": "Défense d'éléphant", "planete": "Soleil", "essence": "Victoire durable, intégrité, leadership, persévérance" },
+      "shravana": { "ordre": 22, "symbole": "Oreille", "planete": "Lune", "essence": "Écoute, apprentissage, sagesse, connexion, transmission" },
+      "dhanishtha": { "ordre": 23, "symbole": "Tambour", "planete": "Mars", "essence": "Rythme, musique, abondance, adaptabilité, prospérité" },
+      "shatabhisha": { "ordre": 24, "symbole": "Cercle vide", "planete": "Rahu", "essence": "Guérison, mystère, solitude, secrets, dimension cosmique" },
+      "purva_bhadrapada": { "ordre": 25, "symbole": "Épée / homme à deux visages", "planete": "Jupiter", "essence": "Intensité spirituelle, dualité, transformation, idéalisme" },
+      "uttara_bhadrapada": { "ordre": 26, "symbole": "Serpent des profondeurs", "planete": "Saturne", "essence": "Sagesse profonde, calme, profondeur intérieure, compassion, stabilité spirituelle" },
+      "revati": { "ordre": 27, "symbole": "Poisson / tambour", "planete": "Mercure", "essence": "Protection, achèvement, douceur, voyage, transition, compassion" }
+    }
+  },
+
+  "rashis": {
+    "note": "Les 12 signes sidéraux védiques. Mêmes noms sanscrits, correspondant aux 12 signes occidentaux mais décalés d'environ 24°.",
+    "liste": {
+      "mesha": { "occidental": "Bélier", "planete": "Mars", "element": "Feu", "essence": "Initiative, courage, action, pionnier" },
+      "vrishabha": { "occidental": "Taureau", "planete": "Vénus", "element": "Terre", "essence": "Stabilité, plaisir, patience, matérialité" },
+      "mithuna": { "occidental": "Gémeaux", "planete": "Mercure", "element": "Air", "essence": "Communication, curiosité, dualité, intellect" },
+      "karka": { "occidental": "Cancer", "planete": "Lune", "element": "Eau", "essence": "Émotion, foyer, protection, sensibilité" },
+      "simha": { "occidental": "Lion", "planete": "Soleil", "element": "Feu", "essence": "Rayonnement, autorité, créativité, noblesse" },
+      "kanya": { "occidental": "Vierge", "planete": "Mercure", "element": "Terre", "essence": "Analyse, service, précision, discernement" },
+      "tula": { "occidental": "Balance", "planete": "Vénus", "element": "Air", "essence": "Harmonie, relation, justice, équilibre" },
+      "vrishchika": { "occidental": "Scorpion", "planete": "Mars", "element": "Eau", "essence": "Intensité, transformation, profondeur, mystère" },
+      "dhanu": { "occidental": "Sagittaire", "planete": "Jupiter", "element": "Feu", "essence": "Sagesse, quête, expansion, liberté" },
+      "makara": { "occidental": "Capricorne", "planete": "Saturne", "element": "Terre", "essence": "Ambition, discipline, structure, endurance" },
+      "kumbha": { "occidental": "Verseau", "planete": "Saturne", "element": "Air", "essence": "Originalité, collectif, vision, indépendance" },
+      "meena": { "occidental": "Poissons", "planete": "Jupiter", "element": "Eau", "essence": "Spiritualité, compassion, rêve, dissolution" }
+    }
+  },
+
+  "grahas": {
+    "note": "Les 9 planètes védiques (Navagraha), incluant les nœuds lunaires Rahu et Ketu qui n'ont pas d'équivalent physique mais une importance karmique majeure.",
+    "liste": {
+      "surya": { "nom": "Soleil", "sanskrit": "Surya", "gouverne": "Âme, autorité, père, vitalité" },
+      "chandra": { "nom": "Lune", "sanskrit": "Chandra", "gouverne": "Mental, émotions, mère, intuition (planète centrale en védique)" },
+      "mangala": { "nom": "Mars", "sanskrit": "Mangala", "gouverne": "Énergie, courage, action, frères" },
+      "budha": { "nom": "Mercure", "sanskrit": "Budha", "gouverne": "Intelligence, parole, commerce, apprentissage" },
+      "guru": { "nom": "Jupiter", "sanskrit": "Guru / Brihaspati", "gouverne": "Sagesse, chance, enseignement, spiritualité, enfants" },
+      "shukra": { "nom": "Vénus", "sanskrit": "Shukra", "gouverne": "Amour, art, plaisir, mariage, confort" },
+      "shani": { "nom": "Saturne", "sanskrit": "Shani", "gouverne": "Karma, discipline, épreuves, longévité, justice" },
+      "rahu": { "nom": "Nœud Nord", "sanskrit": "Rahu", "gouverne": "Désir mondain, obsession, ambition matérielle, karma à accomplir" },
+      "ketu": { "nom": "Nœud Sud", "sanskrit": "Ketu", "gouverne": "Spiritualité, détachement, karma passé, libération" }
+    }
+  }
+}

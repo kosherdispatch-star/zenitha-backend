@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "systeme": "Astrologie Occidentale — Maisons",
+    "version": "1.0",
+    "usage": "Les 12 maisons représentent les domaines de la vie. Une planète dans une maison indique où sa fonction s'exprime concrètement. L'ascendant marque le début de la 1ère maison."
+  },
+
+  "maisons": {
+    "1": {
+      "numero": 1,
+      "nom": "Maison I — L'Ascendant",
+      "domaine": "Identité, apparence, façon de se présenter au monde",
+      "axe": "Soi",
+      "signe_naturel": "Bélier",
+      "en_bref": "La 1ère maison, c'est toi : ton apparence, ta personnalité extérieure, la première impression que tu donnes et ta manière d'aborder la vie.",
+      "texte_fond": "La première maison commence à l'ascendant, le point le plus personnel du thème après le Soleil et la Lune. Elle représente l'identité visible, l'apparence physique, le tempérament et la façon dont on s'élance dans l'existence. C'est le masque qu'on porte, mais aussi l'énergie vitale de base. Les planètes qui s'y trouvent marquent fortement la personnalité et sont immédiatement perceptibles par les autres.",
+      "mots_cles": ["identité", "apparence", "vitalité", "premier abord"]
+    },
+    "2": {
+      "numero": 2,
+      "nom": "Maison II",
+      "domaine": "Argent, ressources, valeurs, possessions, estime de soi",
+      "axe": "Avoir",
+      "signe_naturel": "Taureau",
+      "en_bref": "La 2ème maison gouverne ton rapport à l'argent, aux possessions, mais aussi à ta valeur personnelle et à ce qui compte pour toi.",
+      "texte_fond": "La deuxième maison concerne les ressources matérielles — argent, biens, revenus — mais aussi, plus profondément, le sentiment de sa propre valeur. Elle indique comment on gagne et gère ses ressources, mais aussi ce sur quoi on s'appuie pour se sentir en sécurité et digne. Les planètes ici colorent le rapport à la matière et à l'estime de soi.",
+      "mots_cles": ["argent", "ressources", "valeur personnelle", "sécurité matérielle"]
+    },
+    "3": {
+      "numero": 3,
+      "nom": "Maison III",
+      "domaine": "Communication, apprentissage, fratrie, environnement proche",
+      "axe": "Penser",
+      "signe_naturel": "Gémeaux",
+      "en_bref": "La 3ème maison gouverne la communication, la pensée quotidienne, les études, les frères et sœurs et l'entourage proche.",
+      "texte_fond": "La troisième maison est celle de l'esprit concret et des échanges quotidiens : communication, apprentissage, écriture, déplacements courts, relations avec la fratrie et le voisinage. Elle montre comment on pense, on s'informe et on relie les choses au jour le jour. Les planètes ici influencent la façon de communiquer et d'apprendre.",
+      "mots_cles": ["communication", "apprentissage", "fratrie", "quotidien"]
+    },
+    "4": {
+      "numero": 4,
+      "nom": "Maison IV — Le Fond du Ciel",
+      "domaine": "Foyer, famille, racines, intimité, sécurité affective",
+      "axe": "Racines",
+      "signe_naturel": "Cancer",
+      "en_bref": "La 4ème maison, c'est tes racines : le foyer, la famille, l'enfance, tes fondations intérieures et ton besoin de sécurité.",
+      "texte_fond": "La quatrième maison est celle des racines, du foyer et de l'intimité profonde. Elle représente la famille d'origine, l'enfance, le rapport aux parents (souvent la mère ou la figure nourricière), et le lieu intérieur où l'on se ressource. C'est la base secrète de la personnalité, ce qui nous porte en profondeur. Les planètes ici touchent au monde intime et aux fondations affectives.",
+      "mots_cles": ["foyer", "famille", "racines", "intimité"]
+    },
+    "5": {
+      "numero": 5,
+      "nom": "Maison V",
+      "domaine": "Créativité, amour, plaisir, enfants, expression de soi",
+      "axe": "Créer",
+      "signe_naturel": "Lion",
+      "en_bref": "La 5ème maison gouverne la créativité, les amours, le plaisir, le jeu, les enfants et tout ce par quoi tu t'exprimes joyeusement.",
+      "texte_fond": "La cinquième maison est celle de la création et de la joie de vivre : expression artistique, romances, plaisirs, loisirs, enfants. C'est là qu'on rayonne, qu'on joue, qu'on aime avec spontanéité et qu'on met au monde ce qui vient de soi — un enfant, une œuvre, une passion. Les planètes ici colorent la créativité et la manière d'aimer et de s'amuser.",
+      "mots_cles": ["créativité", "amour", "plaisir", "expression"]
+    },
+    "6": {
+      "numero": 6,
+      "nom": "Maison VI",
+      "domaine": "Travail quotidien, santé, hygiène de vie, service",
+      "axe": "Servir",
+      "signe_naturel": "Vierge",
+      "en_bref": "La 6ème maison gouverne le travail au quotidien, la santé, les routines, l'hygiène de vie et le sens du service.",
+      "texte_fond": "La sixième maison concerne le quotidien concret : le travail (dans son aspect routinier et utile), la santé, l'hygiène de vie et le service rendu aux autres. Elle montre comment on organise ses journées, prend soin de son corps et met ses compétences au service d'un ensemble. Les planètes ici influencent le rapport au travail et à la santé.",
+      "mots_cles": ["travail quotidien", "santé", "routine", "service"]
+    },
+    "7": {
+      "numero": 7,
+      "nom": "Maison VII — Le Descendant",
+      "domaine": "Couple, partenariats, relations, mariage, l'autre",
+      "axe": "L'autre",
+      "signe_naturel": "Balance",
+      "en_bref": "La 7ème maison, c'est l'autre : le couple, le mariage, les partenariats, les associations et ce qu'on cherche chez un partenaire.",
+      "texte_fond": "La septième maison, opposée à la première, est celle de la relation à l'autre : couple, mariage, associations, partenariats et même adversaires déclarés. Elle décrit ce qu'on recherche chez un partenaire et comment on entre en relation d'égal à égal. Souvent, elle révèle des qualités qu'on projette sur l'autre parce qu'on ne les reconnaît pas encore en soi. Les planètes ici marquent la vie de couple et les partenariats.",
+      "mots_cles": ["couple", "partenariat", "relation", "engagement"]
+    },
+    "8": {
+      "numero": 8,
+      "nom": "Maison VIII",
+      "domaine": "Transformation, sexualité, ressources partagées, crises, mort/renaissance",
+      "axe": "Transformer",
+      "signe_naturel": "Scorpion",
+      "en_bref": "La 8ème maison gouverne les transformations profondes, la sexualité, les ressources partagées, les crises et tout ce qui nous fait mourir et renaître.",
+      "texte_fond": "La huitième maison est celle des profondeurs et des transformations : sexualité, intimité fusionnelle, argent partagé (héritages, dettes, ressources du couple), crises et renaissances. C'est un domaine intense où l'on affronte ses peurs, ses désirs profonds et les processus de mort symbolique et de régénération. Les planètes ici touchent à ce qui transforme radicalement et à ce qui est partagé en profondeur.",
+      "mots_cles": ["transformation", "sexualité", "ressources partagées", "crise"]
+    },
+    "9": {
+      "numero": 9,
+      "nom": "Maison IX",
+      "domaine": "Philosophie, voyages, études supérieures, spiritualité, sens",
+      "axe": "Comprendre",
+      "signe_naturel": "Sagittaire",
+      "en_bref": "La 9ème maison gouverne la quête de sens : philosophie, voyages lointains, études supérieures, spiritualité et ouverture au monde.",
+      "texte_fond": "La neuvième maison est celle de l'expansion de l'esprit : philosophie, spiritualité, études supérieures, voyages lointains, cultures étrangères et quête de sens. Là où la troisième maison relie au proche, la neuvième ouvre au lointain et à l'abstrait. C'est le domaine des grandes questions, des convictions et de la recherche de vérité. Les planètes ici colorent la vision du monde et le besoin de sens.",
+      "mots_cles": ["philosophie", "voyage", "spiritualité", "quête de sens"]
+    },
+    "10": {
+      "numero": 10,
+      "nom": "Maison X — Le Milieu du Ciel",
+      "domaine": "Carrière, vocation, statut social, accomplissement public",
+      "axe": "Accomplir",
+      "signe_naturel": "Capricorne",
+      "en_bref": "La 10ème maison, c'est ta vocation : ta carrière, ton statut social, ta réputation et ce que tu veux accomplir publiquement.",
+      "texte_fond": "La dixième maison, point culminant du thème, concerne la vocation, la carrière, le statut social et l'image publique. Elle montre ce vers quoi on tend dans le monde extérieur, ce pour quoi on veut être reconnu et la trace qu'on souhaite laisser. C'est aussi le rapport à l'autorité et à la réussite. Les planètes ici marquent fortement la vie professionnelle et l'ambition.",
+      "mots_cles": ["carrière", "vocation", "statut", "accomplissement"]
+    },
+    "11": {
+      "numero": 11,
+      "nom": "Maison XI",
+      "domaine": "Amitiés, groupes, projets, idéaux, avenir",
+      "axe": "Partager",
+      "signe_naturel": "Verseau",
+      "en_bref": "La 11ème maison gouverne les amitiés, les groupes, les projets collectifs, les idéaux et la vision de l'avenir.",
+      "texte_fond": "La onzième maison est celle des liens choisis et des projets tournés vers l'avenir : amitiés, groupes, communautés, réseaux, idéaux et espérances. Elle montre comment on s'inscrit dans un collectif et quels rêves on porte pour demain. C'est le domaine de la fraternité, des causes partagées et des aspirations. Les planètes ici influencent la vie sociale et les projets d'avenir.",
+      "mots_cles": ["amitiés", "groupes", "projets", "idéaux"]
+    },
+    "12": {
+      "numero": 12,
+      "nom": "Maison XII",
+      "domaine": "Inconscient, spiritualité, épreuves cachées, retrait, secrets",
+      "axe": "Se dissoudre",
+      "signe_naturel": "Poissons",
+      "en_bref": "La 12ème maison gouverne l'invisible : l'inconscient, la spiritualité, les épreuves cachées, le besoin de retrait et ce qui échappe au regard.",
+      "texte_fond": "La douzième maison, la plus mystérieuse, concerne l'invisible et l'inconscient : la spiritualité, les rêves, les épreuves secrètes, les lieux de retrait (hôpitaux, retraites, solitude), et tout ce qui se joue en coulisses. C'est un domaine de dissolution de l'ego, de compassion universelle mais aussi d'auto-sabotage possible. Les planètes ici travaillent dans l'ombre et demandent un chemin intérieur pour se révéler. C'est souvent là que se cachent les plus grands dons spirituels.",
+      "mots_cles": ["inconscient", "spiritualité", "retrait", "invisible"]
+    }
+  }
+}
